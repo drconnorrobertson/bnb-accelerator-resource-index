@@ -1,0 +1,59 @@
+{
+  "cash-allocation": {
+    "heading": "Reconcile cash before deciding what remains available",
+    "intro": "A purchase budget needs one dated starting balance and a list of obligations that have not yet left that balance. Otherwise, a deposit can be deducted twice, a furnishing bill can disappear between worksheets, or money reserved for operations can look available for another purchase. The example below shows the reconciliation; it does not establish that any particular reserve or purchase is suitable.",
+    "sections": [
+      {
+        "heading": "A fictional cash bridge",
+        "paragraphs": [
+          "Assume the buyer has $180,000 of cash allocated to this project on the worksheet date. A $10,000 earnest-money deposit was paid before that date and is already absent from this balance. The current settlement estimate calls for another $95,000 at closing, after allowing for the deposit and any stated credits. Furnishing, installation and other setup invoices still require $25,000. The buyer has separately chosen to protect $35,000 for operations in this illustration.",
+          "These are invented teaching amounts, not a customer result, lender requirement or recommended reserve. All remaining outflows are assumed unpaid, and the example assumes no additional inflows. Treat an expected future reimbursement or booking receipt as a separate assumption rather than adding it to today's available cash."
+        ],
+        "ledger": {
+          "caption": "Hypothetical allocation from one dated cash balance",
+          "opening": 180000,
+          "deductions": [
+            {"label": "Remaining cash to close", "amount": 95000},
+            {"label": "Unpaid setup commitments", "amount": 25000},
+            {"label": "Protected operating reserve", "amount": 35000}
+          ]
+        }
+      },
+      {
+        "heading": "Why the deposit is not deducted again",
+        "paragraphs": [
+          "The starting balance is measured after the $10,000 deposit cleared, and the $95,000 is the amount still needed to close. Subtracting that deposit again would understate unallocated cash by $10,000. Conversely, using a balance from before the deposit cleared without recording the outstanding payment would overstate it. A payment in transit needs a reconciling entry: choose one cutoff time and account for it once.",
+          "Use the settlement professional's current transaction documents to identify the amount still due. On the consumer mortgage form described in the CFPB's Closing Disclosure explainer, Cash to Close and Closing Costs are different totals, and deposits and credits affect the closing calculation. The explainer is background for that form; some investment and business-purpose transactions use different documentation. Do not assume a consumer form applies to every short-term-rental purchase."
+        ]
+      },
+      {
+        "heading": "Keep committed cash and protected cash visible",
+        "paragraphs": [
+          "In the example, $60,000 remains after the closing and setup commitments. That is cash remaining before the protected reserve. Only $25,000 remains unallocated after the $35,000 reserve is set aside. Keeping those two results separate prevents the reserve from being offered twice, once as an operating buffer and again as available acquisition cash.",
+          "A protected allocation does not necessarily mean money has left the account, nor does it establish a lender's required reserve. Record why the amount is protected and who set the constraint. Confirm any financing conditions with the actual lender. A positive unallocated balance answers this worksheet's arithmetic question; it does not establish affordability, borrowing eligibility or investment merit."
+        ]
+      },
+      {
+        "heading": "Change one assumption and identify the gap",
+        "paragraphs": [
+          "If unpaid setup commitments rise from $25,000 to $40,000 and every other input stays fixed, unallocated cash falls from $25,000 to $10,000. If an additional unpaid $12,000 repair is then identified, the allocation is short by $2,000. The negative result identifies an unresolved funding gap under these assumptions; changing its label to contingency does not fund it. Avoid automatically reducing the protected reserve to make the total look positive."
+        ]
+      },
+      {
+        "heading": "Make the next review reproducible",
+        "paragraphs": [
+          "For each line, retain the source date, the amount still unpaid, the responsible party and whether the amount is observed, quoted or assumed. Separate a quote from an accepted order, and note whether tax, delivery and installation are included. Use non-sensitive references in the browser checklist rather than account numbers or confidential statements."
+        ],
+        "items": [
+          "Reconcile the dated balance to payments in transit and exclude cash committed to other projects.",
+          "Match remaining closing funds to the current settlement calculation; explain deposits, credits and changes rather than adding overlapping totals.",
+          "List unpaid setup and repair commitments separately from amounts already reflected in the balance.",
+          "Record the reserve constraint and leave unresolved amounts visible in the checklist below."
+        ]
+      }
+    ],
+    "sources": [
+      {"label": "CFPB Closing Disclosure explainer", "url": "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/", "note": "Background on the consumer form's closing figures, deposits and credits. The fictional allocation and reserve amounts above are original teaching assumptions."}
+    ]
+  }
+}
