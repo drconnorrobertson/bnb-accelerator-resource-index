@@ -1,0 +1,19 @@
+{
+  "project": "bnb-accelerator-resource-index",
+  "name": "BNB Resource Index",
+  "short": "Resource Index",
+  "kind": "planning",
+  "library": "Acquisition playbook library",
+  "accent": "#b5f47c",
+  "intro": "Organize acquisition research by the decision it needs to support. Start with a playbook, request the relevant records, and use editable practice packets to track open questions.",
+  "search": "Try roof, closing or management",
+  "origin": "https://bnb-accelerator-resource-index.vercel.app",
+  "baseRoutes": [
+    "/",
+    "/about/",
+    "/consultation-checklist/",
+    "/glossary/",
+    "/official-resources/",
+    "/start/"
+  ]
+}

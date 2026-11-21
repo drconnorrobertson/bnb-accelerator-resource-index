@@ -1,0 +1,1105 @@
+{
+  "topics": [
+    {
+      "title": "Investor brief",
+      "category": "Acquisition",
+      "question": "What should the property accomplish without relying on appreciation?",
+      "documents": [
+        "Written objective",
+        "cash ceiling",
+        "owner involvement limit"
+      ],
+      "flags": [
+        "A return target without a time horizon",
+        "contradictory lifestyle and income goals"
+      ],
+      "action": "Write a one-page brief with an acceptable downside and a decision owner.",
+      "limit": "A brief guides your search; it cannot establish suitability.",
+      "slug": "investor-brief",
+      "checks": [
+        "Request written objective.",
+        "Request cash ceiling.",
+        "Request owner involvement limit.",
+        "Write a one-page brief with an acceptable downside and a decision owner."
+      ]
+    },
+    {
+      "title": "Cash allocation",
+      "category": "Acquisition",
+      "question": "How much cash remains after closing and setup?",
+      "documents": [
+        "Account-level cash allocation",
+        "closing estimate",
+        "setup schedule"
+      ],
+      "flags": [
+        "Reserves counted as spendable purchase cash",
+        "unfunded furnishing costs"
+      ],
+      "action": "Separate committed cash from the reserve that must remain available.",
+      "limit": "An allocation worksheet does not establish loan eligibility.",
+      "slug": "cash-allocation",
+      "checks": [
+        "Request account-level cash allocation.",
+        "Request closing estimate.",
+        "Request setup schedule.",
+        "Separate committed cash from the reserve that must remain available."
+      ]
+    },
+    {
+      "title": "Lender comparison",
+      "category": "Financing",
+      "question": "Are the loan offers comparable on amount, term and total cost?",
+      "documents": [
+        "Dated lender quote",
+        "fee schedule",
+        "payment breakdown"
+      ],
+      "flags": [
+        "Different loan sizes",
+        "interest-only compared with amortizing payments"
+      ],
+      "action": "Request matching assumptions and document remaining differences.",
+      "limit": "Consumer mortgage resources may not apply to business-purpose loans.",
+      "slug": "lender-comparison",
+      "checks": [
+        "Request dated lender quote.",
+        "Request fee schedule.",
+        "Request payment breakdown.",
+        "Request matching assumptions and document remaining differences."
+      ]
+    },
+    {
+      "title": "Loan conditions",
+      "category": "Financing",
+      "question": "Which financing conditions remain unresolved?",
+      "documents": [
+        "Written conditional approval",
+        "document request list",
+        "expiry dates"
+      ],
+      "flags": [
+        "A prequalification treated as final approval",
+        "unassigned conditions"
+      ],
+      "action": "Ask the lender to identify the owner and evidence needed for each condition.",
+      "limit": "Only the lender can confirm its current approval and requirements.",
+      "slug": "loan-conditions",
+      "checks": [
+        "Request written conditional approval.",
+        "Request document request list.",
+        "Request expiry dates.",
+        "Ask the lender to identify the owner and evidence needed for each condition."
+      ]
+    },
+    {
+      "title": "Closing cash",
+      "category": "Financing",
+      "question": "Does the available cash cover the actual closing requirement?",
+      "documents": [
+        "Settlement estimate",
+        "deposit record",
+        "credit schedule"
+      ],
+      "flags": [
+        "Deposit counted twice",
+        "escrows confused with fees"
+      ],
+      "action": "Reconcile deposits and credits to the latest dated closing estimate.",
+      "limit": "Confirm final settlement amounts with the responsible closing professionals.",
+      "slug": "closing-cash",
+      "checks": [
+        "Request settlement estimate.",
+        "Request deposit record.",
+        "Request credit schedule.",
+        "Reconcile deposits and credits to the latest dated closing estimate."
+      ]
+    },
+    {
+      "title": "Seller records",
+      "category": "Evidence",
+      "question": "Which operating claims have original records behind them?",
+      "documents": [
+        "Booking export",
+        "payout statements",
+        "expense invoices"
+      ],
+      "flags": [
+        "Screenshots without dates",
+        "owner summaries without source records"
+      ],
+      "action": "Request source files with the reporting period and definition of revenue.",
+      "limit": "Access to records does not prove their completeness or accuracy.",
+      "slug": "seller-records",
+      "checks": [
+        "Request booking export.",
+        "Request payout statements.",
+        "Request expense invoices.",
+        "Request source files with the reporting period and definition of revenue."
+      ]
+    },
+    {
+      "title": "Comparable selection",
+      "category": "Revenue",
+      "question": "Why does each comparison property belong in the set?",
+      "documents": [
+        "Property attributes",
+        "observation dates",
+        "comparable inclusion notes"
+      ],
+      "flags": [
+        "Only top performers selected",
+        "amenities or capacity materially different"
+      ],
+      "action": "Create an inclusion rule before selecting comparable properties.",
+      "limit": "A comparable set does not predict a particular property's results.",
+      "slug": "comparable-selection",
+      "checks": [
+        "Request property attributes.",
+        "Request observation dates.",
+        "Request comparable inclusion notes.",
+        "Create an inclusion rule before selecting comparable properties."
+      ]
+    },
+    {
+      "title": "Seasonality review",
+      "category": "Revenue",
+      "question": "Does the model include a full operating cycle?",
+      "documents": [
+        "Monthly room revenue",
+        "booked nights",
+        "availability calendar"
+      ],
+      "flags": [
+        "Peak months annualized",
+        "launch months treated as stable operations"
+      ],
+      "action": "Plot the months separately and annotate unavailable periods.",
+      "limit": "Historic seasonality is context rather than a future forecast.",
+      "slug": "seasonality-review",
+      "checks": [
+        "Request monthly room revenue.",
+        "Request booked nights.",
+        "Request availability calendar.",
+        "Plot the months separately and annotate unavailable periods."
+      ]
+    },
+    {
+      "title": "Availability plan",
+      "category": "Revenue",
+      "question": "How many nights are realistically offered for bookings?",
+      "documents": [
+        "Owner-use plan",
+        "maintenance closures",
+        "booking calendar"
+      ],
+      "flags": [
+        "Owner stays left in available inventory",
+        "blocked nights classified as demand"
+      ],
+      "action": "Separate available, booked, owner-used and closed nights.",
+      "limit": "A calendar cannot explain every unbooked night without context.",
+      "slug": "availability-plan",
+      "checks": [
+        "Request owner-use plan.",
+        "Request maintenance closures.",
+        "Request booking calendar.",
+        "Separate available, booked, owner-used and closed nights."
+      ]
+    },
+    {
+      "title": "Revenue definitions",
+      "category": "Revenue",
+      "question": "Are room charges separated from taxes and pass-through receipts?",
+      "documents": [
+        "Reservation ledger",
+        "fee definitions",
+        "refund report"
+      ],
+      "flags": [
+        "Collected taxes included as earned room revenue",
+        "refunds omitted"
+      ],
+      "action": "Write a reconciliation from room charges to payouts.",
+      "limit": "Definitions must match before two income figures can be compared.",
+      "slug": "revenue-definitions",
+      "checks": [
+        "Request reservation ledger.",
+        "Request fee definitions.",
+        "Request refund report.",
+        "Write a reconciliation from room charges to payouts."
+      ]
+    },
+    {
+      "title": "Property restrictions",
+      "category": "Permissions",
+      "question": "Who will establish the restrictions applying to this exact property?",
+      "documents": [
+        "Recorded restrictions",
+        "association documents",
+        "official correspondence"
+      ],
+      "flags": [
+        "A neighboring property treated as permission",
+        "undated verbal assurances"
+      ],
+      "action": "Record the exact authority, property reference and unresolved question.",
+      "limit": "This workflow does not determine local legality or interpret restrictions.",
+      "slug": "property-restrictions",
+      "checks": [
+        "Request recorded restrictions.",
+        "Request association documents.",
+        "Request official correspondence.",
+        "Record the exact authority, property reference and unresolved question."
+      ]
+    },
+    {
+      "title": "Insurance scope",
+      "category": "Permissions",
+      "question": "Does the quoted policy address the proposed use?",
+      "documents": [
+        "Written quote",
+        "use description",
+        "exclusion questions"
+      ],
+      "flags": [
+        "Ordinary occupancy assumed to cover rental activity",
+        "deductibles ignored"
+      ],
+      "action": "Describe the planned use to the insurer and request written answers.",
+      "limit": "Only the insurer and qualified advisers can confirm coverage.",
+      "slug": "insurance-scope",
+      "checks": [
+        "Request written quote.",
+        "Request use description.",
+        "Request exclusion questions.",
+        "Describe the planned use to the insurer and request written answers."
+      ]
+    },
+    {
+      "title": "Inspection scope",
+      "category": "Condition",
+      "question": "Which systems are inside and outside the inspection scope?",
+      "documents": [
+        "Inspection proposal",
+        "access limitations",
+        "specialist recommendations"
+      ],
+      "flags": [
+        "Inaccessible areas described as inspected",
+        "cosmetic observations treated as clearance"
+      ],
+      "action": "Record exclusions and assign follow-up specialists before closing decisions.",
+      "limit": "A planning worksheet is not an inspection or safety certification.",
+      "slug": "inspection-scope",
+      "checks": [
+        "Request inspection proposal.",
+        "Request access limitations.",
+        "Request specialist recommendations.",
+        "Record exclusions and assign follow-up specialists before closing decisions."
+      ]
+    },
+    {
+      "title": "Roof review",
+      "category": "Condition",
+      "question": "What evidence addresses roof condition and near-term work?",
+      "documents": [
+        "Inspection observations",
+        "repair history",
+        "contractor scope"
+      ],
+      "flags": [
+        "A recent patch described as a new roof",
+        "age used instead of condition evidence"
+      ],
+      "action": "Separate observed defects from estimated remaining life and request a scoped quote.",
+      "limit": "Qualified inspection is needed for property-specific conclusions.",
+      "slug": "roof-review",
+      "checks": [
+        "Request inspection observations.",
+        "Request repair history.",
+        "Request contractor scope.",
+        "Separate observed defects from estimated remaining life and request a scoped quote."
+      ]
+    },
+    {
+      "title": "Heating and cooling",
+      "category": "Condition",
+      "question": "Can the proposed system support the intended operating pattern?",
+      "documents": [
+        "Equipment list",
+        "service records",
+        "inspection findings"
+      ],
+      "flags": [
+        "Service date confused with replacement date",
+        "capacity assumptions unsupported"
+      ],
+      "action": "Ask a qualified technician to identify condition, scope and any quoted work.",
+      "limit": "No worksheet determines system safety, capacity or code compliance.",
+      "slug": "heating-and-cooling",
+      "checks": [
+        "Request equipment list.",
+        "Request service records.",
+        "Request inspection findings.",
+        "Ask a qualified technician to identify condition, scope and any quoted work."
+      ]
+    },
+    {
+      "title": "Plumbing review",
+      "category": "Condition",
+      "question": "Which visible issues require specialist investigation?",
+      "documents": [
+        "Inspection notes",
+        "repair invoices",
+        "access restrictions"
+      ],
+      "flags": [
+        "A stain dismissed without tracing its source",
+        "concealed systems assumed sound"
+      ],
+      "action": "Document the observation and request a written specialist follow-up.",
+      "limit": "Do not treat a visual checklist as a diagnosis.",
+      "slug": "plumbing-review",
+      "checks": [
+        "Request inspection notes.",
+        "Request repair invoices.",
+        "Request access restrictions.",
+        "Document the observation and request a written specialist follow-up."
+      ]
+    },
+    {
+      "title": "Electrical review",
+      "category": "Condition",
+      "question": "What electrical questions remain open after inspection?",
+      "documents": [
+        "Inspection report",
+        "permit records if available",
+        "electrician quote"
+      ],
+      "flags": [
+        "An outlet test treated as a whole-system assessment",
+        "unsupported capacity claims"
+      ],
+      "action": "Keep observed issues separate from work recommendations and approvals.",
+      "limit": "A licensed professional must address electrical safety and required work.",
+      "slug": "electrical-review",
+      "checks": [
+        "Request inspection report.",
+        "Request permit records if available.",
+        "Request electrician quote.",
+        "Keep observed issues separate from work recommendations and approvals."
+      ]
+    },
+    {
+      "title": "Moisture follow-up",
+      "category": "Condition",
+      "question": "Has the source of observed moisture been investigated?",
+      "documents": [
+        "Dated observations",
+        "repair history",
+        "specialist assessment"
+      ],
+      "flags": [
+        "Cosmetic covering treated as source correction",
+        "no follow-up after a leak"
+      ],
+      "action": "Record where moisture was observed and request appropriate investigation.",
+      "limit": "This page offers document planning, not health advice or remediation instructions.",
+      "slug": "moisture-follow-up",
+      "checks": [
+        "Request dated observations.",
+        "Request repair history.",
+        "Request specialist assessment.",
+        "Record where moisture was observed and request appropriate investigation."
+      ]
+    },
+    {
+      "title": "Water supply",
+      "category": "Condition",
+      "question": "What supports assumptions about the property's water service?",
+      "documents": [
+        "Service details",
+        "available testing records",
+        "provider correspondence"
+      ],
+      "flags": [
+        "Supply capacity assumed from bedroom count",
+        "testing scope unknown"
+      ],
+      "action": "Record the source and ask the appropriate provider or specialist about open issues.",
+      "limit": "Testing and service requirements vary and need property-specific review.",
+      "slug": "water-supply",
+      "checks": [
+        "Request service details.",
+        "Request available testing records.",
+        "Request provider correspondence.",
+        "Record the source and ask the appropriate provider or specialist about open issues."
+      ]
+    },
+    {
+      "title": "Wastewater systems",
+      "category": "Condition",
+      "question": "What records describe the wastewater system and its limitations?",
+      "documents": [
+        "Service history",
+        "inspection scope",
+        "available system records"
+      ],
+      "flags": [
+        "Guest capacity inferred without system review",
+        "maintenance history absent"
+      ],
+      "action": "Ask an appropriate specialist which records and checks are needed.",
+      "limit": "No capacity or compliance conclusion is made here.",
+      "slug": "wastewater-systems",
+      "checks": [
+        "Request service history.",
+        "Request inspection scope.",
+        "Request available system records.",
+        "Ask an appropriate specialist which records and checks are needed."
+      ]
+    },
+    {
+      "title": "Internet service",
+      "category": "Operations",
+      "question": "Is usable service confirmed at the exact address?",
+      "documents": [
+        "Provider quote",
+        "service availability",
+        "installation lead time"
+      ],
+      "flags": [
+        "Area coverage treated as address availability",
+        "advertised speed treated as a guarantee"
+      ],
+      "action": "Confirm address service, installation costs and a practical backup plan.",
+      "limit": "Provider availability and performance must be verified directly.",
+      "slug": "internet-service",
+      "checks": [
+        "Request provider quote.",
+        "Request service availability.",
+        "Request installation lead time.",
+        "Confirm address service, installation costs and a practical backup plan."
+      ]
+    },
+    {
+      "title": "Parking plan",
+      "category": "Operations",
+      "question": "How will guests arrive and park without relying on assumptions?",
+      "documents": [
+        "Site plan",
+        "written restrictions",
+        "arrival instructions"
+      ],
+      "flags": [
+        "Listing capacity unsupported by usable spaces",
+        "access routes blocked"
+      ],
+      "action": "Map the arrival path and verify applicable restrictions with responsible parties.",
+      "limit": "This plan does not establish permitted occupancy or parking rights.",
+      "slug": "parking-plan",
+      "checks": [
+        "Request site plan.",
+        "Request written restrictions.",
+        "Request arrival instructions.",
+        "Map the arrival path and verify applicable restrictions with responsible parties."
+      ]
+    },
+    {
+      "title": "Accessibility information",
+      "category": "Operations",
+      "question": "Which property features can be described accurately to guests?",
+      "documents": [
+        "Measured features",
+        "dated photos",
+        "access route notes"
+      ],
+      "flags": [
+        "Broad accessibility labels without supporting detail",
+        "stairs not disclosed"
+      ],
+      "action": "Describe specific verified features and identify questions needing specialist advice.",
+      "limit": "Do not claim accessibility certification or legal compliance from this worksheet.",
+      "slug": "accessibility-information",
+      "checks": [
+        "Request measured features.",
+        "Request dated photos.",
+        "Request access route notes.",
+        "Describe specific verified features and identify questions needing specialist advice."
+      ]
+    },
+    {
+      "title": "Noise management",
+      "category": "Operations",
+      "question": "Who handles a guest or neighbor noise concern?",
+      "documents": [
+        "Manager response process",
+        "house rules",
+        "escalation contacts"
+      ],
+      "flags": [
+        "No after-hours owner",
+        "rules without an enforcement workflow"
+      ],
+      "action": "Document response responsibilities and appropriate communication channels.",
+      "limit": "Local rules and device/privacy requirements need separate review.",
+      "slug": "noise-management",
+      "checks": [
+        "Request manager response process.",
+        "Request house rules.",
+        "Request escalation contacts.",
+        "Document response responsibilities and appropriate communication channels."
+      ]
+    },
+    {
+      "title": "Amenity scope",
+      "category": "Design",
+      "question": "What does each proposed amenity cost to install and operate?",
+      "documents": [
+        "Itemized quote",
+        "maintenance plan",
+        "insurance questions"
+      ],
+      "flags": [
+        "Purchase price treated as total cost",
+        "maintenance omitted"
+      ],
+      "action": "Combine installation, ongoing cost and operating responsibility in one scope.",
+      "limit": "An amenity's popularity does not establish incremental profit.",
+      "slug": "amenity-scope",
+      "checks": [
+        "Request itemized quote.",
+        "Request maintenance plan.",
+        "Request insurance questions.",
+        "Combine installation, ongoing cost and operating responsibility in one scope."
+      ]
+    },
+    {
+      "title": "Pool service",
+      "category": "Operations",
+      "question": "Who owns inspection, maintenance and incident response for a pool?",
+      "documents": [
+        "Specialist scope",
+        "service proposal",
+        "insurance correspondence"
+      ],
+      "flags": [
+        "A service visit treated as safety certification",
+        "no responsibility for closures"
+      ],
+      "action": "Request written scope and identify the qualified parties for open questions.",
+      "limit": "This is a responsibility worksheet, not pool safety guidance.",
+      "slug": "pool-service",
+      "checks": [
+        "Request specialist scope.",
+        "Request service proposal.",
+        "Request insurance correspondence.",
+        "Request written scope and identify the qualified parties for open questions."
+      ]
+    },
+    {
+      "title": "Furnishing budget",
+      "category": "Design",
+      "question": "Is the room-by-room budget complete and deliverable?",
+      "documents": [
+        "Inventory",
+        "itemized prices",
+        "delivery and assembly quote"
+      ],
+      "flags": [
+        "Decor budget excludes freight",
+        "missing linens and operating supplies"
+      ],
+      "action": "Reconcile quantities and landed costs to the total setup allowance.",
+      "limit": "Hypothetical allowances are not contractor or vendor quotes.",
+      "slug": "furnishing-budget",
+      "checks": [
+        "Request inventory.",
+        "Request itemized prices.",
+        "Request delivery and assembly quote.",
+        "Reconcile quantities and landed costs to the total setup allowance."
+      ]
+    },
+    {
+      "title": "Delivery dependencies",
+      "category": "Design",
+      "question": "Which deliveries can delay installation or launch?",
+      "documents": [
+        "Vendor lead times",
+        "access restrictions",
+        "installation calendar"
+      ],
+      "flags": [
+        "All items assumed available",
+        "installation scheduled before access"
+      ],
+      "action": "Identify critical items and an alternative if a delivery slips.",
+      "limit": "Lead times must be confirmed with the current vendor.",
+      "slug": "delivery-dependencies",
+      "checks": [
+        "Request vendor lead times.",
+        "Request access restrictions.",
+        "Request installation calendar.",
+        "Identify critical items and an alternative if a delivery slips."
+      ]
+    },
+    {
+      "title": "Repair scope",
+      "category": "Design",
+      "question": "Can multiple quotes be compared on the same work?",
+      "documents": [
+        "Written scope",
+        "exclusions",
+        "unit quantities"
+      ],
+      "flags": [
+        "Lowest quote omits work",
+        "allowances treated as fixed prices"
+      ],
+      "action": "Normalize the scope before comparing totals and flag exclusions.",
+      "limit": "A low estimate does not establish condition or an adequate scope.",
+      "slug": "repair-scope",
+      "checks": [
+        "Request written scope.",
+        "Request exclusions.",
+        "Request unit quantities.",
+        "Normalize the scope before comparing totals and flag exclusions."
+      ]
+    },
+    {
+      "title": "Setup contingency",
+      "category": "Design",
+      "question": "How much room is left for unpriced setup work?",
+      "documents": [
+        "Known-cost schedule",
+        "unpriced-items list",
+        "cash reserve"
+      ],
+      "flags": [
+        "Same contingency counted in several buckets",
+        "unknown items priced at zero"
+      ],
+      "action": "Keep contingency separate and assign a quote request to each unknown.",
+      "limit": "Contingency size is a scenario choice rather than a universal standard.",
+      "slug": "setup-contingency",
+      "checks": [
+        "Request known-cost schedule.",
+        "Request unpriced-items list.",
+        "Request cash reserve.",
+        "Keep contingency separate and assign a quote request to each unknown."
+      ]
+    },
+    {
+      "title": "Management handoff",
+      "category": "Operations",
+      "question": "What must be delivered to the operator after closing?",
+      "documents": [
+        "Management scope",
+        "account access plan",
+        "handoff inventory"
+      ],
+      "flags": [
+        "Acquisition scope confused with ongoing management",
+        "missing account ownership"
+      ],
+      "action": "Create a handoff checklist with recipients and acceptance evidence.",
+      "limit": "The signed agreements govern responsibilities.",
+      "slug": "management-handoff",
+      "checks": [
+        "Request management scope.",
+        "Request account access plan.",
+        "Request handoff inventory.",
+        "Create a handoff checklist with recipients and acceptance evidence."
+      ]
+    },
+    {
+      "title": "Cleaning operations",
+      "category": "Operations",
+      "question": "Who owns turnover quality, linen stock and exception handling?",
+      "documents": [
+        "Cleaning scope",
+        "pricing units",
+        "quality review process"
+      ],
+      "flags": [
+        "Per-stay and per-night quotes mixed",
+        "deep cleaning omitted"
+      ],
+      "action": "Specify billing units and who handles a failed or late turnover.",
+      "limit": "A checklist does not certify sanitation or vendor performance.",
+      "slug": "cleaning-operations",
+      "checks": [
+        "Request cleaning scope.",
+        "Request pricing units.",
+        "Request quality review process.",
+        "Specify billing units and who handles a failed or late turnover."
+      ]
+    },
+    {
+      "title": "Maintenance coverage",
+      "category": "Operations",
+      "question": "How are routine requests and urgent repairs assigned?",
+      "documents": [
+        "Service categories",
+        "authorization limits",
+        "after-hours routing"
+      ],
+      "flags": [
+        "Unclear approval limits",
+        "no contact when primary vendor is unavailable"
+      ],
+      "action": "Document the approval workflow and provider backup.",
+      "limit": "Use qualified providers for property-specific work.",
+      "slug": "maintenance-coverage",
+      "checks": [
+        "Request service categories.",
+        "Request authorization limits.",
+        "Request after-hours routing.",
+        "Document the approval workflow and provider backup."
+      ]
+    },
+    {
+      "title": "Listing readiness",
+      "category": "Launch",
+      "question": "Which published claims have been checked against the property?",
+      "documents": [
+        "Photo inventory",
+        "amenity list",
+        "measured room details"
+      ],
+      "flags": [
+        "Stock photos used as property evidence",
+        "unverified amenities advertised"
+      ],
+      "action": "Mark each listing statement verified, pending or excluded before publication.",
+      "limit": "Accurate descriptions still require ongoing updates.",
+      "slug": "listing-readiness",
+      "checks": [
+        "Request photo inventory.",
+        "Request amenity list.",
+        "Request measured room details.",
+        "Mark each listing statement verified, pending or excluded before publication."
+      ]
+    },
+    {
+      "title": "Booking channel setup",
+      "category": "Launch",
+      "question": "Who owns the accounts, calendar links and payout destination?",
+      "documents": [
+        "Account ownership record",
+        "channel list",
+        "calendar checks"
+      ],
+      "flags": [
+        "Shared credentials treated as a handoff",
+        "conflicting availability"
+      ],
+      "action": "Document authorized ownership and test the normal booking workflow.",
+      "limit": "Do not record passwords or private payout details in this public worksheet.",
+      "slug": "booking-channel-setup",
+      "checks": [
+        "Request account ownership record.",
+        "Request channel list.",
+        "Request calendar checks.",
+        "Document authorized ownership and test the normal booking workflow."
+      ]
+    },
+    {
+      "title": "Operating reserve",
+      "category": "Operations",
+      "question": "What ongoing obligations can the cash reserve absorb?",
+      "documents": [
+        "Monthly cost schedule",
+        "reserve balance",
+        "funding policy"
+      ],
+      "flags": [
+        "Reserve included in a return denominator but unavailable to operations"
+      ],
+      "action": "Model a shortfall and distinguish earmarked funds from usable reserve.",
+      "limit": "Runway is arithmetic under assumptions, not a recommended reserve level.",
+      "slug": "operating-reserve",
+      "checks": [
+        "Request monthly cost schedule.",
+        "Request reserve balance.",
+        "Request funding policy.",
+        "Model a shortfall and distinguish earmarked funds from usable reserve."
+      ]
+    },
+    {
+      "title": "Owner reporting",
+      "category": "Operations",
+      "question": "Which recurring report connects income, expenses and cash?",
+      "documents": [
+        "Report template",
+        "source exports",
+        "reconciliation owner"
+      ],
+      "flags": [
+        "Dashboard totals without definitions",
+        "unexplained adjustments"
+      ],
+      "action": "Agree on reporting dates and preserve a bridge from source records to totals.",
+      "limit": "A management report is not an audit opinion.",
+      "slug": "owner-reporting",
+      "checks": [
+        "Request report template.",
+        "Request source exports.",
+        "Request reconciliation owner.",
+        "Agree on reporting dates and preserve a bridge from source records to totals."
+      ]
+    },
+    {
+      "title": "Exit flexibility",
+      "category": "Acquisition",
+      "question": "What alternatives remain if the original operating plan changes?",
+      "documents": [
+        "Use alternatives",
+        "financing constraints",
+        "sale-cost assumptions"
+      ],
+      "flags": [
+        "Future sale value treated as certain",
+        "alternate use assumed permitted"
+      ],
+      "action": "Document unverified alternatives and the checks needed before relying on them.",
+      "limit": "This workflow does not forecast value or confirm alternate-use rights.",
+      "slug": "exit-flexibility",
+      "checks": [
+        "Request use alternatives.",
+        "Request financing constraints.",
+        "Request sale-cost assumptions.",
+        "Document unverified alternatives and the checks needed before relying on them."
+      ]
+    },
+    {
+      "title": "Adviser coordination",
+      "category": "Acquisition",
+      "question": "Which questions require the lender, inspector, attorney or tax adviser?",
+      "documents": [
+        "Responsibility map",
+        "open-question register",
+        "written responses"
+      ],
+      "flags": [
+        "One provider assumed to cover every specialty",
+        "advice recorded without scope"
+      ],
+      "action": "Assign each unresolved question to the appropriate qualified party.",
+      "limit": "Acquisition support is not a substitute for specialist professional advice.",
+      "slug": "adviser-coordination",
+      "checks": [
+        "Request responsibility map.",
+        "Request open-question register.",
+        "Request written responses.",
+        "Assign each unresolved question to the appropriate qualified party."
+      ]
+    },
+    {
+      "title": "Final decision record",
+      "category": "Acquisition",
+      "question": "Can you explain the purchase decision from the retained evidence?",
+      "documents": [
+        "Decision brief",
+        "assumption register",
+        "unresolved-issue list"
+      ],
+      "flags": [
+        "A headline return replaces diligence",
+        "no record of rejected alternatives"
+      ],
+      "action": "Record the basis, remaining uncertainty and conditions before deciding.",
+      "limit": "The owner remains responsible for their decision and advisers.",
+      "slug": "final-decision-record",
+      "checks": [
+        "Request decision brief.",
+        "Request assumption register.",
+        "Request unresolved-issue list.",
+        "Record the basis, remaining uncertainty and conditions before deciding."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Source register",
+      "question": "Why keep one register for evidence?",
+      "intro": "A register connects a document to its date, origin, scope and owner. Use a stable reference rather than renaming an attachment whenever a new version arrives.",
+      "action": "Give every important assumption a source ID. Mark missing records explicitly and record the next request beside them.",
+      "limit": "An attachment list alone does not show whether a document supports a particular claim.",
+      "slug": "source-register",
+      "category": "Methods"
+    },
+    {
+      "title": "Decision gates",
+      "question": "How can a project use explicit review gates?",
+      "intro": "A gate is a condition that must be resolved before a chosen commitment. It differs from a calendar reminder because completion needs evidence.",
+      "action": "Separate gates about funding, property permission, condition and operating readiness. Give each one an owner and a defined output.",
+      "limit": "A completed task is not permission to proceed if its result exposes a new issue.",
+      "slug": "decision-gates",
+      "category": "Methods"
+    },
+    {
+      "title": "Scope matrix",
+      "question": "How do you compare who does what?",
+      "intro": "A scope matrix places tasks beside responsible parties, deliverables and exclusions. It helps reveal where an acquisition service stops and another provider begins.",
+      "action": "Use actual proposal language when recording responsibilities. Mark conflicting descriptions rather than choosing the most convenient one.",
+      "limit": "Marketing descriptions do not replace your agreement.",
+      "slug": "scope-matrix",
+      "category": "Methods"
+    },
+    {
+      "title": "Assumption register",
+      "question": "What belongs beside every estimate?",
+      "intro": "Record the value, units, period, source and reason the estimate is being used. Keep the previous value when a revision changes the decision.",
+      "action": "Separate recorded history from a forecast and note which inputs move together in a downside case.",
+      "limit": "A well-documented assumption can still be wrong.",
+      "slug": "assumption-register",
+      "category": "Methods"
+    },
+    {
+      "title": "Quote normalization",
+      "question": "How can quotes be made comparable?",
+      "intro": "Two quotes may price different quantities, materials, access conditions or exclusions. Comparing totals first can hide those differences.",
+      "action": "Build one common scope and ask each provider to identify its included and excluded items against that scope.",
+      "limit": "Do not convert an allowance into a fixed price without the provider's confirmation.",
+      "slug": "quote-normalization",
+      "category": "Methods"
+    },
+    {
+      "title": "Version control",
+      "question": "How do you avoid reviewing an old proposal?",
+      "intro": "A stable document name with a visible version date and status helps distinguish draft, superseded and current records.",
+      "action": "Keep a change log of the values or scope items altered. Link the approved version from the decision record.",
+      "limit": "The latest file received is not necessarily the operative agreement.",
+      "slug": "version-control",
+      "category": "Methods"
+    },
+    {
+      "title": "Responsibility assignment",
+      "question": "How do you make an open question actionable?",
+      "intro": "A question needs one owner, a requested response and a date for follow-up. Several people being copied does not establish ownership.",
+      "action": "Ask the owner to identify evidence of completion rather than simply marking the question answered.",
+      "limit": "Assigning responsibility does not expand a provider's professional scope.",
+      "slug": "responsibility-assignment",
+      "category": "Methods"
+    },
+    {
+      "title": "Document completeness",
+      "question": "What does a complete file mean for a decision?",
+      "intro": "Completeness depends on the question. A full booking export may support room revenue while saying nothing about repairs or financing.",
+      "action": "Define the minimum fields and time range needed before requesting documents. Log omitted periods and inaccessible attachments.",
+      "limit": "A complete set can still contain inaccuracies or conflicting definitions.",
+      "slug": "document-completeness",
+      "category": "Methods"
+    },
+    {
+      "title": "Chronology",
+      "question": "Why sequence records by observation date?",
+      "intro": "The date a fact was observed can differ from a document's issue date or the date it was received. All three can matter.",
+      "action": "Place events in order and connect later revisions to the records they replace.",
+      "limit": "An old condition report does not establish current condition.",
+      "slug": "chronology",
+      "category": "Methods"
+    },
+    {
+      "title": "Budget ownership",
+      "question": "Who changes a project allowance?",
+      "intro": "A budget owner decides which estimate is current and records the reason for revisions. Without that role, multiple totals can circulate.",
+      "action": "Keep original allowance, current quote, approved change and funded amount in separate fields.",
+      "limit": "A spending cap does not guarantee that vendors can deliver the work.",
+      "slug": "budget-ownership",
+      "category": "Methods"
+    },
+    {
+      "title": "Contingency register",
+      "question": "How should unknown costs be tracked?",
+      "intro": "An unknown cost is different from a zero cost. List its scope, the reason it is unresolved and the party expected to price it.",
+      "action": "Avoid distributing the same contingency across several totals. Show where reserve funds can and cannot be used.",
+      "limit": "A contingency is a planning choice, not a guarantee against overruns.",
+      "slug": "contingency-register",
+      "category": "Methods"
+    },
+    {
+      "title": "Timeline dependencies",
+      "question": "What makes a launch schedule credible?",
+      "intro": "A dependency connects a task to prerequisites such as access, delivery or approval. A target date without prerequisites is difficult to evaluate.",
+      "action": "Identify the critical sequence and a fallback if one predecessor slips. Keep vendor lead times separate from internal work time.",
+      "limit": "A schedule does not establish availability or approval.",
+      "slug": "timeline-dependencies",
+      "category": "Methods"
+    },
+    {
+      "title": "Communication log",
+      "question": "What should be retained from a project call?",
+      "intro": "Record decisions, open questions, responsible parties and promised documents. A long transcript can be less useful than a clear action record.",
+      "action": "Confirm material scope or price changes with the appropriate party in writing.",
+      "limit": "Your notes do not amend an agreement by themselves.",
+      "slug": "communication-log",
+      "category": "Methods"
+    },
+    {
+      "title": "Data minimization",
+      "question": "What should stay out of a planning worksheet?",
+      "intro": "Use document references rather than copying account numbers, identification details, passwords or private client information into general notes.",
+      "action": "Keep original sensitive records in your own appropriate secure storage and use a non-sensitive reference in the workbook.",
+      "limit": "A browser-local worksheet is not a secure document vault.",
+      "slug": "data-minimization",
+      "category": "Methods"
+    },
+    {
+      "title": "Field definitions",
+      "question": "Why agree on terminology before comparing figures?",
+      "intro": "Revenue, cash flow, fees and occupancy can refer to different measures. Definitions tell the reader which transactions and costs are included.",
+      "action": "Write a short data dictionary with units, period and exclusions. Reconcile measures before comparing them.",
+      "limit": "Matching labels do not prove that two underlying calculations match.",
+      "slug": "field-definitions",
+      "category": "Methods"
+    },
+    {
+      "title": "Exception tracking",
+      "question": "How do you retain unresolved differences?",
+      "intro": "An exception log preserves the original conflicting values, their sources and the question needed to reconcile them.",
+      "action": "Assign a follow-up and keep the item open until a response addresses the actual mismatch.",
+      "limit": "Do not mark a conflict resolved merely because one source is newer.",
+      "slug": "exception-tracking",
+      "category": "Methods"
+    },
+    {
+      "title": "Evidence handoff",
+      "question": "How should one provider transfer a project file?",
+      "intro": "A handoff needs a manifest of the records delivered, recipient access and acknowledgment of anything still missing.",
+      "action": "Use stable links and verify the recipient can open the required documents. Record who owns future updates.",
+      "limit": "Sharing a folder is not proof that the intended records are readable or complete.",
+      "slug": "evidence-handoff",
+      "category": "Methods"
+    },
+    {
+      "title": "Change impact",
+      "question": "What else changes when one assumption moves?",
+      "intro": "A revised nightly rate can change revenue, fees, cash flow and returns. A delayed launch can change both costs and available nights.",
+      "action": "Trace the dependent outputs and preserve the prior scenario for comparison.",
+      "limit": "Updating a headline result without updating dependent assumptions creates an inconsistent model.",
+      "slug": "change-impact",
+      "category": "Methods"
+    },
+    {
+      "title": "Readiness review",
+      "question": "How do you distinguish ready from almost ready?",
+      "intro": "Readiness is a defined set of completed checks with evidence. It should be specific to the task rather than a single broad status.",
+      "action": "Review blockers separately from tasks that can finish later and document the basis for each classification.",
+      "limit": "This workflow does not certify safety, legality or investment suitability.",
+      "slug": "readiness-review",
+      "category": "Methods"
+    },
+    {
+      "title": "Research prioritization",
+      "question": "Which open questions should be answered first?",
+      "intro": "Prioritize questions that could change whether the property can be used, funded or operated as intended. Resolve costly uncertainty before polishing minor estimates.",
+      "action": "Record decision impact, the party needed and the effort to obtain evidence. Reassess priorities when a new issue appears.",
+      "limit": "Priority is a planning judgment rather than a promise of an optimal purchase.",
+      "slug": "research-prioritization",
+      "category": "Methods"
+    }
+  ]
+}
