@@ -1,0 +1,682 @@
+{
+  "investor-brief": {
+    "subject": "Investment brief A",
+    "field": "monthly cash objective",
+    "facts": [
+      "The signed-off brief requests $1,000 monthly pre-tax cash flow after debt payments and no more than ten owner hours per month.",
+      "A search memo proposes a property needing weekly owner coordination, without explaining the extra workload.",
+      "The decision log contains a $120,000 cash ceiling but has no approved change to the owner-hours limit."
+    ],
+    "principle": "A return objective and an involvement limit are separate acceptance conditions. A property can meet one while failing the other.",
+    "risk": "An unexplained workload change can alter which service scope the owner needs.",
+    "deliverable": "a revised brief that reconciles the cash goal, cash ceiling and owner responsibilities",
+    "recordLabels": [
+      "Owner objective brief",
+      "Search coordination memo",
+      "Cash decision log"
+    ]
+  },
+  "cash-allocation": {
+    "subject": "Cash allocation A",
+    "field": "reserve cash remaining",
+    "facts": [
+      "The allocation schedule starts with $160,000 available cash and earmarks $20,000 to remain in reserve.",
+      "The purchase worksheet uses $100,000 for down payment, $12,000 for closing and $35,000 for setup, leaving $13,000.",
+      "A separate fee estimate lists $5,000 not included in those three purchase buckets."
+    ],
+    "principle": "Cash available for purchase must be distinguished from cash promised to remain accessible after setup. The listed buckets leave less than the stated reserve before the additional fee.",
+    "risk": "An incomplete cash allocation can make an apparently funded project depend on money already earmarked elsewhere.",
+    "deliverable": "a component-by-component cash bridge that includes fees and shows the reserve after all commitments",
+    "recordLabels": [
+      "Cash allocation schedule",
+      "Purchase cash worksheet",
+      "Additional fee estimate"
+    ]
+  },
+  "lender-comparison": {
+    "subject": "Loan comparison A",
+    "field": "loan amount and payment basis",
+    "facts": [
+      "Offer A describes $300,000 principal, a thirty-year amortization schedule and $7,000 of lender charges.",
+      "Offer B describes $320,000 principal, an initial interest-only payment and $9,000 of lender charges.",
+      "The comparison summary ranks the offers solely by their displayed first monthly payment."
+    ],
+    "principle": "The principal, repayment structure and charges differ, so the payment difference cannot be attributed to the interest rate alone.",
+    "risk": "A lower initial payment can conceal a different obligation or a larger financed amount.",
+    "deliverable": "matching lender illustrations with principal, payment type, charges and relevant dates clearly aligned",
+    "recordLabels": [
+      "Offer A illustration",
+      "Offer B illustration",
+      "Payment comparison summary"
+    ]
+  },
+  "loan-conditions": {
+    "subject": "Conditional finance packet A",
+    "field": "outstanding approval condition",
+    "facts": [
+      "A conditional lender message requires an acceptable property review and updated liquidity documentation.",
+      "The task list marks the property review received but still shows the liquidity request pending.",
+      "A coordination summary uses the phrase ready to close without an unconditional lender confirmation."
+    ],
+    "principle": "Receipt of one requested item does not complete every financing condition. The lender's own current statement is the relevant evidence for approval status.",
+    "risk": "A premature readiness label can obscure a dependency that still affects closing.",
+    "deliverable": "a lender-confirmed condition list identifying the remaining requirement and acceptable completion evidence",
+    "recordLabels": [
+      "Conditional lender message",
+      "Condition task list",
+      "Coordination summary"
+    ]
+  },
+  "closing-cash": {
+    "subject": "Closing cash worksheet A",
+    "field": "deposit credit",
+    "facts": [
+      "The cash-to-close illustration lists a $100,000 down payment and $12,000 of other closing cash before credits.",
+      "A deposit record shows $10,000 already paid toward the transaction.",
+      "The funding summary requests $112,000 again without showing how the deposit is credited."
+    ],
+    "principle": "Already-paid deposits and new funds due at closing need one reconciliation. Showing an amount in two places does not mean it is payable twice.",
+    "risk": "A deposit omitted from the bridge can overstate the additional funds needed or conceal a settlement mismatch.",
+    "deliverable": "a closing reconciliation that separates deposit paid, credits applied and additional funds requested",
+    "recordLabels": [
+      "Pre-credit closing illustration",
+      "Deposit payment record",
+      "Funding request summary"
+    ]
+  },
+  "seller-records": {
+    "subject": "Seller operating packet A",
+    "field": "source transaction coverage",
+    "facts": [
+      "A seller summary reports $60,000 in annual room charges for a full twelve-month period.",
+      "The supplied reservation export covers only January through September and totals $41,000 in room charges.",
+      "The expense folder contains utility bills for six months, with no explanation of the missing periods."
+    ],
+    "principle": "The full-year summary and partial source records do not describe the same observed interval. The unprovided months cannot be filled with assumed actuals.",
+    "risk": "A partial packet can make annual revenue or costs appear more certain than the record supports.",
+    "deliverable": "the remaining reservation months, missing expense periods and a bridge to the annual summary",
+    "recordLabels": [
+      "Seller annual summary",
+      "Partial reservation export",
+      "Expense-folder manifest"
+    ]
+  },
+  "comparable-selection": {
+    "subject": "Comparable set A",
+    "field": "inclusion rule",
+    "facts": [
+      "The selection rule calls for four-bedroom properties with similar guest capacity and a pool.",
+      "Two selected records have six bedrooms, while one comparable has no pool.",
+      "The screening note excludes a weaker four-bedroom result without documenting why it was ineligible."
+    ],
+    "principle": "A comparison rule should explain both inclusion and exclusion. Otherwise a favorable set may reflect selection rather than the target property's attributes.",
+    "risk": "An unexamined comparison set can overstate the relevance of its revenue range.",
+    "deliverable": "a comparable register with capacity, amenities, observation dates and explicit inclusion or exclusion reasons",
+    "recordLabels": [
+      "Comparable inclusion rule",
+      "Selected property register",
+      "Exclusion note"
+    ]
+  },
+  "seasonality-review": {
+    "subject": "Seasonality worksheet A",
+    "field": "months observed",
+    "facts": [
+      "The operating statement contains $24,000 of room charges in three summer months and $18,000 in the other nine months.",
+      "A presentation multiplies the $8,000 summer monthly average by twelve.",
+      "The monthly cost schedule remains a flat annual amount and does not explain the launch or closure dates."
+    ],
+    "principle": "A peak-period average is not a recorded annual result. The full set here totals $42,000, while the extrapolation describes a separate assumption.",
+    "risk": "Seasonal concentration can materially change the cash needed during weaker months.",
+    "deliverable": "a month-by-month schedule that separates recorded charges from any extrapolated scenario",
+    "recordLabels": [
+      "Monthly room-charge schedule",
+      "Peak-period extrapolation",
+      "Monthly cost and opening schedule"
+    ]
+  },
+  "availability-plan": {
+    "subject": "Availability calendar A",
+    "field": "offered nights",
+    "facts": [
+      "The calendar has 365 calendar nights, 20 nights of owner use and 15 maintenance closures.",
+      "The operating forecast uses 210 booked nights.",
+      "The summary divides 210 by 365 while a separate dashboard divides 210 by the 330 nights remaining after closures and owner use."
+    ],
+    "principle": "Both ratios use the same booked nights but different denominators. Offered inventory should be named before comparing occupancy.",
+    "risk": "An unexplained availability denominator can make two occupancy figures appear inconsistent when they measure different things.",
+    "deliverable": "a calendar bridge from calendar nights to offered nights and then booked nights",
+    "recordLabels": [
+      "Calendar-night allocation",
+      "Booked-night forecast",
+      "Occupancy denominator comparison"
+    ]
+  },
+  "revenue-definitions": {
+    "subject": "Revenue classification A",
+    "field": "room charges versus receipts",
+    "facts": [
+      "The reservation summary contains $50,000 room charges, $8,000 guest cleaning charges and $6,000 taxes collected for authorities.",
+      "A headline labels the $64,000 total as room revenue.",
+      "A payout record shows deductions and timing adjustments without a bridge to the headline."
+    ],
+    "principle": "A collected amount and earned room charges are not interchangeable labels. Separate each receipt category before using a room-rate model.",
+    "risk": "A mixed revenue base can distort rate, fee and return calculations.",
+    "deliverable": "a classification schedule for room charges, cleaning receipts, collected taxes, refunds and payouts",
+    "recordLabels": [
+      "Receipt-category schedule",
+      "Room-revenue headline",
+      "Payout adjustment statement"
+    ]
+  },
+  "property-restrictions": {
+    "subject": "Property-use record A",
+    "field": "exact subject of permission question",
+    "facts": [
+      "The request identifies Scenario Property A and asks about the proposed short-term rental use.",
+      "The supplied correspondence discusses Scenario Property B on a nearby street.",
+      "The association packet is dated before a revision referenced in the seller's disclosure."
+    ],
+    "principle": "Permission-related evidence must address the exact property and relevant current documents. Proximity is not a substitute for a property-specific answer.",
+    "risk": "Relying on the wrong subject can leave the intended use unestablished.",
+    "deliverable": "current property-specific records and a scoped response from the appropriate authority or qualified adviser",
+    "recordLabels": [
+      "Property-use inquiry",
+      "Correspondence for another property",
+      "Association revision manifest"
+    ]
+  },
+  "insurance-scope": {
+    "subject": "Insurance inquiry A",
+    "field": "declared use and exclusions",
+    "facts": [
+      "The insurance request describes short guest stays and third-party management at Scenario Property A.",
+      "The example quote uses a generic residential-use description and lists an unanswered rental-use question.",
+      "The budget carries the quoted premium as settled even though the use question remains open."
+    ],
+    "principle": "A premium estimate does not answer whether the intended activity is addressed. The question and the quote scope need a written connection.",
+    "risk": "A cost line can appear complete while a material coverage question remains unresolved.",
+    "deliverable": "a written insurer response tied to the proposed use, property reference and relevant exclusions",
+    "recordLabels": [
+      "Rental-use inquiry",
+      "Illustrative residential quote",
+      "Expense assumption worksheet"
+    ]
+  },
+  "inspection-scope": {
+    "subject": "Inspection engagement A",
+    "field": "areas actually examined",
+    "facts": [
+      "The inspection scope includes accessible visible systems and lists the locked utility room as inaccessible.",
+      "A later summary states that every mechanical area was inspected.",
+      "The specialist follow-up request for the utility room remains unassigned."
+    ],
+    "principle": "An inspection conclusion must retain its access limitations. Unexamined areas cannot be described as cleared by that inspection.",
+    "risk": "Removing an exclusion from a summary can make the condition evidence sound broader than the work performed.",
+    "deliverable": "the inspection scope, access limitation and a separately assigned follow-up for the inaccessible area",
+    "recordLabels": [
+      "Inspection engagement scope",
+      "Whole-property summary",
+      "Specialist follow-up request"
+    ]
+  },
+  "roof-review": {
+    "subject": "Roof evidence packet A",
+    "field": "observed defect and priced scope",
+    "facts": [
+      "The inspection notes a stain near one roof penetration but does not diagnose its source.",
+      "A contractor illustration prices a local flashing repair and excludes concealed damage.",
+      "The acquisition allowance describes the amount as complete roof remediation without a scope bridge."
+    ],
+    "principle": "A visible observation, a proposed repair and a whole-system conclusion are different statements. The quote only prices its specified work.",
+    "risk": "An allowance can understate the uncertainty if excluded work is treated as already resolved.",
+    "deliverable": "a qualified follow-up that connects the observation, proposed scope, exclusions and any remaining investigation",
+    "recordLabels": [
+      "Inspection observation excerpt",
+      "Contractor repair-scope illustration",
+      "Acquisition allowance summary"
+    ]
+  },
+  "heating-and-cooling": {
+    "subject": "HVAC evidence packet A",
+    "field": "service versus replacement",
+    "facts": [
+      "The equipment record lists an older system and a recent routine service visit.",
+      "A handoff summary calls the system newly replaced.",
+      "The service invoice describes cleaning and testing, with no replacement equipment listed."
+    ],
+    "principle": "Routine service does not establish replacement. The system history should preserve the difference between maintenance work and a new installation.",
+    "risk": "A mistaken history can distort the condition questions and reserve assumptions presented to the owner.",
+    "deliverable": "equipment identification and a technician's scoped record of what was serviced, replaced or left unexamined",
+    "recordLabels": [
+      "Equipment and service history",
+      "Replacement claim in handoff summary",
+      "Routine service invoice"
+    ]
+  },
+  "plumbing-review": {
+    "subject": "Plumbing follow-up A",
+    "field": "source of visible staining",
+    "facts": [
+      "The inspection reports staining below a sink and states that concealed piping was not examined.",
+      "The repair note describes replacing a supply fitting and repainting the cabinet surface.",
+      "The condition summary describes all plumbing as resolved without documenting a wider investigation."
+    ],
+    "principle": "A localized repair record should not be extended to concealed systems or unrelated areas. The observation and repair scope need to remain distinct.",
+    "risk": "A broad completion statement may obscure what was actually investigated.",
+    "deliverable": "a scoped plumbing follow-up that identifies the observed issue, work performed and remaining access limitations",
+    "recordLabels": [
+      "Plumbing inspection observation",
+      "Localized repair note",
+      "Whole-system completion summary"
+    ]
+  },
+  "electrical-review": {
+    "subject": "Electrical follow-up A",
+    "field": "scope of electrical assessment",
+    "facts": [
+      "The visible inspection flags a panel question and notes that only accessible outlets were sampled.",
+      "A repair estimate prices two outlet replacements.",
+      "The readiness checklist treats the outlet work as completion of the panel question."
+    ],
+    "principle": "The outlet scope and the panel question are different tasks. Completion of one does not supply the specialist response needed for the other.",
+    "risk": "Task substitution can close an evidence item without addressing its actual concern.",
+    "deliverable": "a qualified electrician's response to the panel question, separate from the outlet repair record",
+    "recordLabels": [
+      "Inspection scope and panel question",
+      "Outlet repair estimate",
+      "Panel-question readiness checklist"
+    ]
+  },
+  "moisture-follow-up": {
+    "subject": "Moisture record A",
+    "field": "cause investigation versus cosmetic work",
+    "facts": [
+      "The observation log records a water mark after a storm.",
+      "A work invoice lists surface drying and repainting.",
+      "The source-investigation item is still open, although the summary says the problem was fixed."
+    ],
+    "principle": "Cosmetic work is not evidence that the underlying source was investigated. Keep the observation, work and unresolved cause question separate.",
+    "risk": "An unresolved source can be hidden by a completed cosmetic task.",
+    "deliverable": "an appropriate specialist's scoped investigation record and the evidence needed for follow-up",
+    "recordLabels": [
+      "Storm observation log",
+      "Cosmetic work invoice",
+      "Source-investigation task list"
+    ]
+  },
+  "water-supply": {
+    "subject": "Water-service record A",
+    "field": "address and testing scope",
+    "facts": [
+      "The service inquiry names Scenario Property A and the proposed guest-use pattern.",
+      "A supplied test report identifies a different sample location and no explanation of its relationship to the property.",
+      "The planning note assumes that the report establishes the property's current service and quality questions."
+    ],
+    "principle": "A test result only addresses its stated sample and scope. The correct property and current question need their own relevant evidence.",
+    "risk": "A mismatched sample can leave both service and testing assumptions unsupported.",
+    "deliverable": "property-specific provider information and appropriate specialist guidance on the relevant records or checks",
+    "recordLabels": [
+      "Property-specific service inquiry",
+      "Different-location sample report",
+      "Service assumption note"
+    ]
+  },
+  "wastewater-systems": {
+    "subject": "Wastewater record A",
+    "field": "system record and proposed use",
+    "facts": [
+      "The available system record identifies a service date and a limited visible inspection.",
+      "The operating plan assumes a higher guest-use pattern than the record discusses.",
+      "No scoped specialist response connects that proposed use with the available system information."
+    ],
+    "principle": "A maintenance date or limited inspection is not a general capacity conclusion. The intended use must be brought into the specific review question.",
+    "risk": "A planning assumption can exceed what the retained record actually addresses.",
+    "deliverable": "a qualified specialist's scoped response identifying the relevant records, limitations and next checks",
+    "recordLabels": [
+      "System service and inspection record",
+      "Proposed guest-use plan",
+      "Specialist-response manifest"
+    ]
+  },
+  "internet-service": {
+    "subject": "Internet service quote A",
+    "field": "exact-address availability",
+    "facts": [
+      "A provider advertisement describes coverage in the surrounding area.",
+      "The address inquiry remains pending and the installation date is not confirmed.",
+      "The launch plan assumes service will be active on the first guest date."
+    ],
+    "principle": "Area-level advertising does not establish exact-address service or an installation commitment. Those are separate operational dependencies.",
+    "risk": "A launch schedule may rely on a connection that has not actually been arranged.",
+    "deliverable": "an exact-address service response, installation timing and a documented backup assumption",
+    "recordLabels": [
+      "Area-coverage advertisement",
+      "Address and installation inquiry",
+      "Guest launch schedule"
+    ]
+  },
+  "parking-plan": {
+    "subject": "Arrival and parking plan A",
+    "field": "usable spaces versus claimed capacity",
+    "facts": [
+      "The site sketch shows three usable vehicle positions without blocking the access path.",
+      "The listing draft advertises parking for five vehicles.",
+      "The restriction inquiry has not yet received a property-specific response."
+    ],
+    "principle": "Physical space, access and applicable restrictions are separate questions. A listing capacity should not outrun the evidence for any of them.",
+    "risk": "An overstated arrival claim can create an operating issue even when the property has a large driveway.",
+    "deliverable": "a verified arrival layout and appropriate property-specific restriction review before publishing a capacity claim",
+    "recordLabels": [
+      "Usable-space site sketch",
+      "Listing parking claim",
+      "Restriction inquiry status"
+    ]
+  },
+  "accessibility-information": {
+    "subject": "Feature description packet A",
+    "field": "specific verified features",
+    "facts": [
+      "The measured feature notes identify a step at the entrance and one ground-floor bedroom.",
+      "The listing draft uses a broad accessible description without specifying the route or other relevant features.",
+      "No specialist certification or complete accessibility assessment is in the packet."
+    ],
+    "principle": "Specific measured features are a narrower claim than a broad accessibility label. Describe what is verified without implying an unperformed assessment.",
+    "risk": "A broad label can communicate more than the supporting measurements establish.",
+    "deliverable": "an accurate feature-by-feature description and appropriate specialist review of questions requiring expertise",
+    "recordLabels": [
+      "Measured feature notes",
+      "Broad listing description",
+      "Specialist assessment manifest"
+    ]
+  },
+  "noise-management": {
+    "subject": "Noise response plan A",
+    "field": "after-hours responsibility",
+    "facts": [
+      "The house-rule draft asks guests to keep noise low during stated hours.",
+      "The manager scope covers daytime messages only.",
+      "The escalation sheet has no assigned after-hours contact or documented backup."
+    ],
+    "principle": "A rule and a response workflow serve different functions. Publishing a rule does not identify who handles an exception when the main contact is unavailable.",
+    "risk": "An unassigned response period can leave guest and neighbor concerns without an owner.",
+    "deliverable": "a scoped response map with authorized contacts, coverage windows and backup responsibility",
+    "recordLabels": [
+      "Guest house-rule draft",
+      "Daytime manager scope",
+      "After-hours escalation sheet"
+    ]
+  },
+  "amenity-scope": {
+    "subject": "Amenity project A",
+    "field": "installed and operating cost",
+    "facts": [
+      "The equipment price illustration is $8,000 before delivery and installation.",
+      "A separate setup scope lists $2,500 of additional work and excludes ongoing servicing.",
+      "The improvement summary treats $8,000 as the full project cost and assumes incremental revenue without evidence."
+    ],
+    "principle": "Purchase cost, installed cost and incremental economics should be distinguished. A popular feature is not evidence of a particular revenue increase.",
+    "risk": "An incomplete scope can make both the cash requirement and payback illustration too favorable.",
+    "deliverable": "a complete installed-cost scope, operating responsibility and a separately labeled incremental revenue assumption",
+    "recordLabels": [
+      "Equipment price illustration",
+      "Installation and service scope",
+      "Amenity improvement summary"
+    ]
+  },
+  "pool-service": {
+    "subject": "Pool responsibility packet A",
+    "field": "maintenance versus safety scope",
+    "facts": [
+      "The service proposal describes scheduled cleaning and basic maintenance visits.",
+      "The operating summary describes those visits as a complete safety assessment.",
+      "The specialist inspection and closure-response responsibilities are not assigned in the packet."
+    ],
+    "principle": "Routine service and a scoped specialist assessment are different work. The service title alone does not establish the broader conclusion.",
+    "risk": "A responsibility gap can be obscured by treating every pool-related task as one service.",
+    "deliverable": "written scopes identifying who handles the specific assessment, routine work and operating exceptions",
+    "recordLabels": [
+      "Routine pool-service proposal",
+      "Safety-assessment claim",
+      "Inspection and closure responsibility list"
+    ]
+  },
+  "furnishing-budget": {
+    "subject": "Furnishing schedule A",
+    "field": "landed cost of the inventory",
+    "facts": [
+      "The room inventory lists $24,000 of item prices.",
+      "Delivery and assembly add $4,000, while linens and operating supplies add $2,000.",
+      "The setup summary retains a $24,000 furnishing total without those additional components."
+    ],
+    "principle": "An item-price subtotal is not the landed setup cost. Quantities, delivery, assembly and supplies need one consistent component schedule.",
+    "risk": "A budget can appear complete while required setup cash remains outside its total.",
+    "deliverable": "a room-by-room landed-cost schedule with quantities, exclusions and current quote references",
+    "recordLabels": [
+      "Room inventory subtotal",
+      "Delivery and supplies schedule",
+      "Setup budget summary"
+    ]
+  },
+  "delivery-dependencies": {
+    "subject": "Installation schedule A",
+    "field": "critical delivery date",
+    "facts": [
+      "The installation plan assumes access on the first day of the month.",
+      "A vendor note estimates a four-week lead time from an order not yet placed.",
+      "The launch date is set two weeks after access with no alternative item identified."
+    ],
+    "principle": "A delivery lead time starts from its stated trigger, not automatically from property access. Critical predecessors need explicit timing.",
+    "risk": "A launch assumption can be inconsistent even when each individual date looks plausible.",
+    "deliverable": "a dependency schedule connecting order placement, delivery, access, installation and any approved fallback",
+    "recordLabels": [
+      "Access and installation plan",
+      "Vendor lead-time note",
+      "Target launch schedule"
+    ]
+  },
+  "repair-scope": {
+    "subject": "Repair quote comparison A",
+    "field": "included work and exclusions",
+    "facts": [
+      "Quote A prices a limited surface repair for $3,000 and excludes underlying investigation.",
+      "Quote B prices a broader investigation and repair allowance for $5,500.",
+      "The comparison ranks A as cheaper without naming the scope difference."
+    ],
+    "principle": "Totals from different scopes should not be treated as equivalent offers. First align included work, exclusions and allowances.",
+    "risk": "Selecting only the smaller number can omit work central to the actual condition question.",
+    "deliverable": "a common work schedule against which each provider identifies inclusions, exclusions and uncertain quantities",
+    "recordLabels": [
+      "Limited repair quote A",
+      "Broader scope quote B",
+      "Price-only comparison summary"
+    ]
+  },
+  "setup-contingency": {
+    "subject": "Setup contingency A",
+    "field": "unpriced work versus funded allowance",
+    "facts": [
+      "Confirmed setup items total $28,000 within a $35,000 allocation.",
+      "The open-items list contains three unpriced tasks.",
+      "A separate summary labels the remaining $7,000 both contingency and available operating reserve."
+    ],
+    "principle": "One cash amount cannot silently serve two independent commitments. Unpriced tasks should remain visible rather than being assigned zero.",
+    "risk": "The same cushion can appear to protect both launch and operations when it is only one pool of money.",
+    "deliverable": "a funded contingency register separating setup unknowns from the operating reserve",
+    "recordLabels": [
+      "Confirmed setup-cost schedule",
+      "Unpriced-work register",
+      "Shared contingency and reserve summary"
+    ]
+  },
+  "management-handoff": {
+    "subject": "Operator handoff A",
+    "field": "accounts and ongoing scope",
+    "facts": [
+      "The acquisition checklist marks closing complete.",
+      "The management scope requires an inventory, account ownership record and property instructions before launch.",
+      "The handoff note says delivered but has no acknowledgment of those three items."
+    ],
+    "principle": "Closing a purchase does not complete an operator handoff. Deliverables and recipient access need their own evidence.",
+    "risk": "The owner may assume operations are covered before the operator has accepted the required material.",
+    "deliverable": "a handoff manifest with readable records, authorized account ownership and explicit open exceptions",
+    "recordLabels": [
+      "Closing milestone checklist",
+      "Operator intake requirements",
+      "Unacknowledged handoff note"
+    ]
+  },
+  "cleaning-operations": {
+    "subject": "Turnover scope A",
+    "field": "billing unit and included work",
+    "facts": [
+      "The cleaner illustration charges $170 per turnover.",
+      "The operating model multiplies $170 by 200 booked nights even though the stay schedule shows 70 turnovers.",
+      "The scope excludes periodic deep cleans and does not identify who approves an exception."
+    ],
+    "principle": "A per-turnover price uses stay count, not booked nights. Separate recurring turnovers, periodic work and response responsibilities.",
+    "risk": "A unit mismatch can materially misstate cleaning cost while leaving service gaps unaddressed.",
+    "deliverable": "a billing-unit reconciliation and a scoped turnover, periodic-work and exception plan",
+    "recordLabels": [
+      "Per-turnover cleaner illustration",
+      "Booked-night and turnover model",
+      "Periodic-work scope and approvals"
+    ]
+  },
+  "maintenance-coverage": {
+    "subject": "Maintenance routing A",
+    "field": "authorization and backup",
+    "facts": [
+      "The coordinator handles routine requests during business hours.",
+      "The owner approval rule has no dollar limit or alternate approver.",
+      "The after-hours request route points to the same unavailable coordinator."
+    ],
+    "principle": "A contact list does not by itself define authorized action. Coverage windows, approval limits and backup roles are separate parts of the workflow.",
+    "risk": "A repair request can stall because the responsible person is not authorized or available to act.",
+    "deliverable": "a responsibility map identifying request intake, authorization, qualified work and backup coverage",
+    "recordLabels": [
+      "Routine request coverage",
+      "Owner approval policy",
+      "After-hours routing sheet"
+    ]
+  },
+  "listing-readiness": {
+    "subject": "Listing evidence checklist A",
+    "field": "verified amenities",
+    "facts": [
+      "The photo inventory confirms three bedrooms and a working outdoor seating area.",
+      "The listing draft advertises four bedrooms and an amenity that is still on order.",
+      "The approval checklist does not show which statements were checked against the actual property."
+    ],
+    "principle": "Listing statements need feature-specific evidence. A planned feature should not be described as already available.",
+    "risk": "An inaccurate promise can be published when draft marketing bypasses the property evidence check.",
+    "deliverable": "a statement-level verification list that separates present, pending and excluded features",
+    "recordLabels": [
+      "Verified feature inventory",
+      "Unverified listing draft",
+      "Statement approval checklist"
+    ]
+  },
+  "booking-channel-setup": {
+    "subject": "Channel handoff A",
+    "field": "ownership and calendar state",
+    "facts": [
+      "The setup list includes two booking channels and an operator calendar.",
+      "One channel's ownership invitation is pending and its calendar synchronization has not been tested.",
+      "The handoff summary treats account creation as proof that all channels are operational."
+    ],
+    "principle": "Creating an account, assigning authorized ownership and testing availability synchronization are distinct milestones.",
+    "risk": "A setup claim can hide an access or calendar dependency that affects normal operation.",
+    "deliverable": "an authorized ownership record and documented normal-flow calendar checks without recording passwords here",
+    "recordLabels": [
+      "Channel setup inventory",
+      "Pending ownership and calendar test",
+      "Account-creation handoff summary"
+    ]
+  },
+  "operating-reserve": {
+    "subject": "Reserve planning A",
+    "field": "usable reserve amount",
+    "facts": [
+      "The reserve line shows $20,000 of cash.",
+      "The commitment schedule earmarks $8,000 of that amount for unpaid setup work.",
+      "A shortfall model divides the full $20,000 by a $2,000 monthly deficit."
+    ],
+    "principle": "Cash committed to another purpose is not automatically usable operating reserve. The runway calculation needs the intended available amount.",
+    "risk": "A reserve can look longer-lived when already-committed cash is included.",
+    "deliverable": "a reserve bridge that distinguishes earmarked commitments from cash actually available for the modeled shortfall",
+    "recordLabels": [
+      "Reserve cash line",
+      "Unpaid setup commitment schedule",
+      "Cash-shortfall runway illustration"
+    ]
+  },
+  "owner-reporting": {
+    "subject": "Owner report A",
+    "field": "bridge from source to summary",
+    "facts": [
+      "The source ledger lists $50,000 room charges and the payout records show $43,000 received.",
+      "The owner report labels $43,000 as revenue without a bridge for deductions or timing.",
+      "The expense report also mixes paid costs and estimates without a status column."
+    ],
+    "principle": "A reporting package should preserve definitions and a traceable bridge. A net receipt can be useful without being relabeled as gross room charges.",
+    "risk": "The owner may compare unlike figures from month to month without seeing why they differ.",
+    "deliverable": "a recurring report with source references, defined measures, adjustments and clearly labeled estimates",
+    "recordLabels": [
+      "Room-charge and payout ledgers",
+      "Net-receipt owner report",
+      "Mixed-status expense report"
+    ]
+  },
+  "exit-flexibility": {
+    "subject": "Alternative-use note A",
+    "field": "verified alternative assumptions",
+    "facts": [
+      "The purchase case assumes short-term rental operation.",
+      "The fallback memo proposes another use and a future sale value without supporting permission or valuation evidence.",
+      "The financing note does not discuss how the alternative would interact with the actual loan terms."
+    ],
+    "principle": "A fallback is still an assumption until its own dependencies are examined. A plausible alternative does not automatically provide verified downside protection.",
+    "risk": "The owner can overestimate flexibility when untested alternatives are presented as available options.",
+    "deliverable": "an alternatives register identifying separate permission, financing, operating and value assumptions",
+    "recordLabels": [
+      "Primary operating assumption",
+      "Unverified fallback memo",
+      "Financing-constraint note"
+    ]
+  },
+  "adviser-coordination": {
+    "subject": "Adviser responsibility map A",
+    "field": "question owner and professional scope",
+    "facts": [
+      "The project list includes a tax question, an electrical question and a loan approval condition.",
+      "All three are assigned to the general coordinator in the same status column.",
+      "No scoped response from the relevant specialist is attached."
+    ],
+    "principle": "Coordination and specialist judgment are different roles. A question needs an appropriate owner and evidence of a response within that party's scope.",
+    "risk": "A task can be marked handled without the required expertise ever addressing it.",
+    "deliverable": "a question-by-question responsibility map and the scoped written responses needed for each decision",
+    "recordLabels": [
+      "Open specialist-question list",
+      "Coordinator assignment column",
+      "Specialist-response manifest"
+    ]
+  },
+  "final-decision-record": {
+    "subject": "Decision file A",
+    "field": "basis of the decision",
+    "facts": [
+      "The decision memo shows one favorable projected return and no retained downside case.",
+      "The evidence folder contains open scope and funding questions.",
+      "The approval line does not explain which assumptions or unresolved items the owner accepted."
+    ],
+    "principle": "A decision record should connect the conclusion to retained evidence and explicit assumptions. It should preserve uncertainty rather than erase it.",
+    "risk": "Later reviewers cannot reconstruct the decision if only a headline result survives.",
+    "deliverable": "a dated decision brief linking the base case, downside, open issues and the owner's stated decision conditions",
+    "recordLabels": [
+      "Headline-return decision memo",
+      "Open funding and scope register",
+      "Unexplained decision-approval line"
+    ]
+  }
+}
