@@ -10,7 +10,7 @@ function renderLedger(ledger) {
     throw new Error('Cash bridge requires finite nonnegative amounts.');
   }
   const remaining = ledger.opening - ledger.deductions.reduce((sum, row) => sum + row.amount, 0);
-  return `<table><caption>${escape(ledger.caption)}</caption><thead><tr><th scope="col">Allocation</th><th scope="col">Amount</th></tr></thead><tbody><tr><th scope="row">Dated starting cash</th><td>${money(ledger.opening)}</td></tr>${ledger.deductions.map(row => `<tr><th scope="row">${escape(row.label)}</th><td>−${money(row.amount)}</td></tr>`).join('')}<tr><th scope="row">Unallocated cash after protected reserve</th><td>${money(remaining)}</td></tr></tbody></table>`;
+  return `<table style="width:100%;border-collapse:collapse"><caption style="text-align:left">${escape(ledger.caption)}</caption><thead><tr><th scope="col" style="text-align:left;padding:.4rem .75rem .4rem 0">Allocation</th><th scope="col" style="text-align:right">Amount</th></tr></thead><tbody><tr><th scope="row" style="text-align:left;padding:.4rem .75rem .4rem 0">Dated starting cash</th><td style="white-space:nowrap;text-align:right">${money(ledger.opening)}</td></tr>${ledger.deductions.map(row => `<tr><th scope="row" style="text-align:left;padding:.4rem .75rem .4rem 0">${escape(row.label)}</th><td style="white-space:nowrap;text-align:right">−${money(row.amount)}</td></tr>`).join('')}<tr><th scope="row" style="text-align:left;padding:.4rem .75rem .4rem 0">Unallocated cash after protected reserve</th><td style="white-space:nowrap;text-align:right">${money(remaining)}</td></tr></tbody></table>`;
 }
 
 export function renderCoreGuide(slug) {
