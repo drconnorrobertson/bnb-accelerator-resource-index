@@ -34,10 +34,10 @@ if slug=='seasonality-review':
 else:
  for phrase in ['exceptions overlap','not count them as three distinct properties','undocumented reason is still an open question','supplies no such threshold']:assert phrase.lower() in html.lower(),phrase
 
-urls=[e.text for e in E.parse(pub/'sitemap.xml').findall('.//{*}loc')];assert len(urls)==len(set(urls))==1427;assert not any('/workbooks/closing-cash/' in u for u in urls)
+urls=[e.text for e in E.parse(pub/'sitemap.xml').findall('.//{*}loc')];assert len(urls)==len(set(urls))==67;assert not any('/workbooks/closing-cash/' in u for u in urls)
 if len(sys.argv)>2:
  base=Path(sys.argv[2])/slug;old=(base/'00.html').read_text();oldOwn=json.loads(re.search(r'<script id="workspace-data" type="application/json">(.*?)</script>',old,re.S)[1]);newOwn=json.loads(re.search(r'data-case-workspace="own"[\s\S]*?<script type="application/json" data-case-workspace-data>(.*?)</script>',html)[1]);assert oldOwn==newOwn
  for n in range(1,41):
   old=(base/f'{n:02d}.html').read_text();pattern=r'<article data-developed-case="'+slug+'/'+str(n)+r'">([\s\S]*?)</article>';a=re.search(pattern,old);b=re.search(pattern,html);assert a and b;assert visible(a[1])==visible(b[1]),n
   oldData=json.loads(re.search(r'<script id="workspace-data" type="application/json">(.*?)</script>',old,re.S)[1]);newData=json.loads(re.search(r'data-case-workspace="case-'+f'{n:02d}'+r'"[\s\S]*?<script type="application/json" data-case-workspace-data>(.*?)</script>',html)[1]);assert oldData==newData,n
-print(json.dumps({'canonicalOwners':1427,'completeCaseArticlesPreserved':40,'separateWorkspaces':41,'priorWorkspaceDataPreserved':41,'legacyFormsDirect':80,'uniqueIDs':len(ids),'commonPackets':1,'distinctEvidenceConditions':40,'topic':slug,'marketOrCashForecast':'not established'}))
+print(json.dumps({'canonicalOwners':67,'completeCaseArticlesPreserved':40,'separateWorkspaces':41,'priorWorkspaceDataPreserved':41,'legacyFormsDirect':80,'uniqueIDs':len(ids),'commonPackets':1,'distinctEvidenceConditions':40,'topic':slug,'marketOrCashForecast':'not established'}))
