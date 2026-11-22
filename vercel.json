@@ -1,7 +1,6 @@
 {
   "version": 2,
   "outputDirectory": "public",
-  "trailingSlash": true,
   "headers": [
     {
       "source": "/(.*)",
@@ -418,6 +417,41 @@
     {
       "source": "/workbooks/cash-allocation/example-40/",
       "destination": "/library/cash-allocation/#case-40",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/consultation-checklist",
+      "destination": "/consultation-checklist/",
+      "permanent": true
+    },
+    {
+      "source": "/glossary",
+      "destination": "/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/official-resources",
+      "destination": "/official-resources/",
+      "permanent": true
+    },
+    {
+      "source": "/start",
+      "destination": "/start/",
+      "permanent": true
+    },
+    {
+      "source": "/library",
+      "destination": "/library/",
+      "permanent": true
+    },
+    {
+      "source": "/:section(library|workbooks)/:path((?!.*\\.[^/]+$).*[^/])",
+      "destination": "/:section/:path/",
       "permanent": true
     }
   ]
