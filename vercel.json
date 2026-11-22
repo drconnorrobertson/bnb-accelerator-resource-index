@@ -20,6 +20,406 @@
   "installCommand": "",
   "redirects": [
     {
+      "source": "/workbooks/seller-records/example-01",
+      "destination": "/library/seller-records/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-01/",
+      "destination": "/library/seller-records/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-02",
+      "destination": "/library/seller-records/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-02/",
+      "destination": "/library/seller-records/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-03",
+      "destination": "/library/seller-records/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-03/",
+      "destination": "/library/seller-records/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-04",
+      "destination": "/library/seller-records/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-04/",
+      "destination": "/library/seller-records/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-05",
+      "destination": "/library/seller-records/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-05/",
+      "destination": "/library/seller-records/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-06",
+      "destination": "/library/seller-records/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-06/",
+      "destination": "/library/seller-records/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-07",
+      "destination": "/library/seller-records/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-07/",
+      "destination": "/library/seller-records/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-08",
+      "destination": "/library/seller-records/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-08/",
+      "destination": "/library/seller-records/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-09",
+      "destination": "/library/seller-records/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-09/",
+      "destination": "/library/seller-records/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-10",
+      "destination": "/library/seller-records/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-10/",
+      "destination": "/library/seller-records/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-11",
+      "destination": "/library/seller-records/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-11/",
+      "destination": "/library/seller-records/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-12",
+      "destination": "/library/seller-records/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-12/",
+      "destination": "/library/seller-records/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-13",
+      "destination": "/library/seller-records/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-13/",
+      "destination": "/library/seller-records/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-14",
+      "destination": "/library/seller-records/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-14/",
+      "destination": "/library/seller-records/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-15",
+      "destination": "/library/seller-records/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-15/",
+      "destination": "/library/seller-records/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-16",
+      "destination": "/library/seller-records/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-16/",
+      "destination": "/library/seller-records/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-17",
+      "destination": "/library/seller-records/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-17/",
+      "destination": "/library/seller-records/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-18",
+      "destination": "/library/seller-records/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-18/",
+      "destination": "/library/seller-records/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-19",
+      "destination": "/library/seller-records/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-19/",
+      "destination": "/library/seller-records/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-20",
+      "destination": "/library/seller-records/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-20/",
+      "destination": "/library/seller-records/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-21",
+      "destination": "/library/seller-records/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-21/",
+      "destination": "/library/seller-records/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-22",
+      "destination": "/library/seller-records/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-22/",
+      "destination": "/library/seller-records/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-23",
+      "destination": "/library/seller-records/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-23/",
+      "destination": "/library/seller-records/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-24",
+      "destination": "/library/seller-records/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-24/",
+      "destination": "/library/seller-records/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-25",
+      "destination": "/library/seller-records/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-25/",
+      "destination": "/library/seller-records/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-26",
+      "destination": "/library/seller-records/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-26/",
+      "destination": "/library/seller-records/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-27",
+      "destination": "/library/seller-records/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-27/",
+      "destination": "/library/seller-records/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-28",
+      "destination": "/library/seller-records/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-28/",
+      "destination": "/library/seller-records/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-29",
+      "destination": "/library/seller-records/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-29/",
+      "destination": "/library/seller-records/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-30",
+      "destination": "/library/seller-records/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-30/",
+      "destination": "/library/seller-records/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-31",
+      "destination": "/library/seller-records/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-31/",
+      "destination": "/library/seller-records/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-32",
+      "destination": "/library/seller-records/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-32/",
+      "destination": "/library/seller-records/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-33",
+      "destination": "/library/seller-records/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-33/",
+      "destination": "/library/seller-records/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-34",
+      "destination": "/library/seller-records/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-34/",
+      "destination": "/library/seller-records/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-35",
+      "destination": "/library/seller-records/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-35/",
+      "destination": "/library/seller-records/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-36",
+      "destination": "/library/seller-records/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-36/",
+      "destination": "/library/seller-records/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-37",
+      "destination": "/library/seller-records/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-37/",
+      "destination": "/library/seller-records/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-38",
+      "destination": "/library/seller-records/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-38/",
+      "destination": "/library/seller-records/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-39",
+      "destination": "/library/seller-records/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-39/",
+      "destination": "/library/seller-records/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-40",
+      "destination": "/library/seller-records/#case-40",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seller-records/example-40/",
+      "destination": "/library/seller-records/#case-40",
+      "permanent": true
+    },
+    {
       "source": "/workbooks/cash-allocation/example-01",
       "destination": "/library/cash-allocation/#case-01",
       "permanent": true
