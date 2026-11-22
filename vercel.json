@@ -20,6 +20,406 @@
   "installCommand": "",
   "redirects": [
     {
+      "source": "/workbooks/lender-comparison/example-01",
+      "destination": "/library/lender-comparison/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-01/",
+      "destination": "/library/lender-comparison/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-02",
+      "destination": "/library/lender-comparison/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-02/",
+      "destination": "/library/lender-comparison/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-03",
+      "destination": "/library/lender-comparison/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-03/",
+      "destination": "/library/lender-comparison/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-04",
+      "destination": "/library/lender-comparison/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-04/",
+      "destination": "/library/lender-comparison/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-05",
+      "destination": "/library/lender-comparison/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-05/",
+      "destination": "/library/lender-comparison/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-06",
+      "destination": "/library/lender-comparison/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-06/",
+      "destination": "/library/lender-comparison/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-07",
+      "destination": "/library/lender-comparison/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-07/",
+      "destination": "/library/lender-comparison/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-08",
+      "destination": "/library/lender-comparison/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-08/",
+      "destination": "/library/lender-comparison/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-09",
+      "destination": "/library/lender-comparison/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-09/",
+      "destination": "/library/lender-comparison/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-10",
+      "destination": "/library/lender-comparison/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-10/",
+      "destination": "/library/lender-comparison/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-11",
+      "destination": "/library/lender-comparison/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-11/",
+      "destination": "/library/lender-comparison/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-12",
+      "destination": "/library/lender-comparison/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-12/",
+      "destination": "/library/lender-comparison/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-13",
+      "destination": "/library/lender-comparison/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-13/",
+      "destination": "/library/lender-comparison/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-14",
+      "destination": "/library/lender-comparison/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-14/",
+      "destination": "/library/lender-comparison/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-15",
+      "destination": "/library/lender-comparison/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-15/",
+      "destination": "/library/lender-comparison/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-16",
+      "destination": "/library/lender-comparison/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-16/",
+      "destination": "/library/lender-comparison/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-17",
+      "destination": "/library/lender-comparison/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-17/",
+      "destination": "/library/lender-comparison/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-18",
+      "destination": "/library/lender-comparison/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-18/",
+      "destination": "/library/lender-comparison/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-19",
+      "destination": "/library/lender-comparison/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-19/",
+      "destination": "/library/lender-comparison/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-20",
+      "destination": "/library/lender-comparison/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-20/",
+      "destination": "/library/lender-comparison/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-21",
+      "destination": "/library/lender-comparison/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-21/",
+      "destination": "/library/lender-comparison/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-22",
+      "destination": "/library/lender-comparison/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-22/",
+      "destination": "/library/lender-comparison/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-23",
+      "destination": "/library/lender-comparison/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-23/",
+      "destination": "/library/lender-comparison/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-24",
+      "destination": "/library/lender-comparison/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-24/",
+      "destination": "/library/lender-comparison/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-25",
+      "destination": "/library/lender-comparison/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-25/",
+      "destination": "/library/lender-comparison/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-26",
+      "destination": "/library/lender-comparison/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-26/",
+      "destination": "/library/lender-comparison/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-27",
+      "destination": "/library/lender-comparison/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-27/",
+      "destination": "/library/lender-comparison/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-28",
+      "destination": "/library/lender-comparison/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-28/",
+      "destination": "/library/lender-comparison/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-29",
+      "destination": "/library/lender-comparison/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-29/",
+      "destination": "/library/lender-comparison/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-30",
+      "destination": "/library/lender-comparison/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-30/",
+      "destination": "/library/lender-comparison/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-31",
+      "destination": "/library/lender-comparison/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-31/",
+      "destination": "/library/lender-comparison/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-32",
+      "destination": "/library/lender-comparison/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-32/",
+      "destination": "/library/lender-comparison/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-33",
+      "destination": "/library/lender-comparison/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-33/",
+      "destination": "/library/lender-comparison/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-34",
+      "destination": "/library/lender-comparison/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-34/",
+      "destination": "/library/lender-comparison/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-35",
+      "destination": "/library/lender-comparison/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-35/",
+      "destination": "/library/lender-comparison/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-36",
+      "destination": "/library/lender-comparison/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-36/",
+      "destination": "/library/lender-comparison/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-37",
+      "destination": "/library/lender-comparison/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-37/",
+      "destination": "/library/lender-comparison/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-38",
+      "destination": "/library/lender-comparison/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-38/",
+      "destination": "/library/lender-comparison/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-39",
+      "destination": "/library/lender-comparison/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-39/",
+      "destination": "/library/lender-comparison/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-40",
+      "destination": "/library/lender-comparison/#case-40",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/lender-comparison/example-40/",
+      "destination": "/library/lender-comparison/#case-40",
+      "permanent": true
+    },
+    {
       "source": "/workbooks/seller-records/example-01",
       "destination": "/library/seller-records/#case-01",
       "permanent": true
