@@ -1,17 +1,53 @@
 # BNB Resource Index
 
-Independent static resource project for My BnB Accelerator, LLC.
+Company-owned evidence review resource published by My BnB Accelerator, LLC.
+It is not an independent rating service. Fictional packets do not represent
+customer reviews, property observations or verified operating results.
 
-Build: `node scripts/build.mjs`
+Build and routing gate:
+`node scripts/build.mjs && node scripts/verify-canonical-routing.mjs`
 
-Validate: `node scripts/test-models.mjs` and `python3 scripts/validate.py`
+Validate with `node scripts/test-models.mjs`,
+`python3 scripts/review-articles.py`,
+`python3 scripts/verify-cash-case-collection.py`,
+`python3 scripts/verify-seller-case-collection.py`,
+`python3 scripts/verify-lender-case-collection.py`,
+`python3 scripts/verify-closing-case-collection.py`,
+`python3 scripts/verify-research-case-collections.py comparable-selection`,
+`python3 scripts/verify-research-case-collections.py seasonality-review`,
+`python3 scripts/test-all-collections.py`, and `python3 scripts/validate.py`.
 
-Catalog: `content/catalog.json`. Site configuration: `content/site.json`. Edit source catalogs rather than generated routes. Node only; no dependencies or installation required. Vercel runs the same build from main.
+## Canonical topic collections
 
-Search policy: every content page is index eligible and included in sitemap.xml. The 1,600 hypothetical teaching cases include 1,360 standalone articles and 240 cases collected under the cash-allocation, seller-records, lender-comparison, closing-cash, comparable-selection and seasonality-review guides. Collections retain each complete explanation and separate editable worksheet; retired case URLs redirect directly to the corresponding case anchor. Fictional teaching packets are clearly disclosed and do not represent customer results. Google indexing is not guaranteed.
+The site publishes 67 canonical pages: six original base pages, forty evidence
+question owners, twenty process references and the library hub. All 1,600 original
+case explanations are preserved inside the forty topic owners. Each topic varies
+forty evidence conditions around one fictional fact packet; these are not forty
+independent observations. No standalone workbook pages remain in the sitemap.
+All 3,200 former workbook URL forms permanently redirect to matching case anchors.
 
-Article sources: content/page-articles/*.json and, for evidence sites, content/topic-dossiers.json. Run `python3 scripts/review-articles.py --approve` after editing articles, then build and validate. Approval records automated content, evidence/arithmetic and similarity checks. The build verifies each content fingerprint before publishing index,follow. This is not independent professional verification.
+Each topic has forty isolated case worksheets and a separate parent worksheet:
+1,640 worksheet scopes in total. Every case retains its former local-save path;
+the parent keeps its original topic path. Entries are read only when the visitor
+presses Load saved entries. There is no automatic storage read or transmission.
+Export, print, save, load and reset apply to the selected worksheet. A status
+marked reviewed is the visitor's selection, not independent verification.
 
-Generated folders `public/library` and `public/workbooks` are intentionally ignored in Git and rebuilt on every deployment. Original core pages and shared browser assets are tracked. Sources and reports are outside the public output.
+Sources live in `content/catalog.json`, `content/page-articles/*.json`,
+`content/topic-dossiers.json` and `content/core-guides.json`. The reviewed cohort
+of thirty-four newly collected topics is explicit in
+`content/collection-cohort.json`; future topics are not automatically included.
+The six earlier collection renderers are preserved.
 
-Custom domains remain deferred. Set SITE_ORIGIN or change content/site.json when connecting the chosen host, and migrate canonical URLs on the existing base pages in the same commit. See DEPLOYMENT.md.
+When editing source case articles, run
+`python3 scripts/review-articles.py --approve` and repeat the release checks.
+Approval is an automated content/evidence/arithmetic fingerprint review, not
+independent professional verification. The build rejects changed fingerprints.
+
+Generated `public/library` and `public/workbooks` folders are ignored in Git and
+rebuilt from committed sources. Original base pages and browser assets are tracked.
+Publish through GitHub main and verify the canonical origin separately; a green
+build alone does not prove the live content matches. Search Console submissions,
+Google discovery, indexing and rankings are separate states.
+
+Custom domains remain deferred. See DEPLOYMENT.md. Google indexing is not guaranteed.

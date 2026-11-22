@@ -20,6 +20,16 @@
   "installCommand": "",
   "redirects": [
     {
+      "source": "/workbooks/:topic(investor-brief|loan-conditions|availability-plan|revenue-definitions|property-restrictions|insurance-scope|inspection-scope|roof-review|heating-and-cooling|plumbing-review|electrical-review|moisture-follow-up|water-supply|wastewater-systems|internet-service|parking-plan|accessibility-information|noise-management|amenity-scope|pool-service|furnishing-budget|delivery-dependencies|repair-scope|setup-contingency|management-handoff|cleaning-operations|maintenance-coverage|listing-readiness|booking-channel-setup|operating-reserve|owner-reporting|exit-flexibility|adviser-coordination|final-decision-record)/example-:number(0[1-9]|[1-3][0-9]|40)",
+      "destination": "/library/:topic/#case-:number",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/:topic(investor-brief|loan-conditions|availability-plan|revenue-definitions|property-restrictions|insurance-scope|inspection-scope|roof-review|heating-and-cooling|plumbing-review|electrical-review|moisture-follow-up|water-supply|wastewater-systems|internet-service|parking-plan|accessibility-information|noise-management|amenity-scope|pool-service|furnishing-budget|delivery-dependencies|repair-scope|setup-contingency|management-handoff|cleaning-operations|maintenance-coverage|listing-readiness|booking-channel-setup|operating-reserve|owner-reporting|exit-flexibility|adviser-coordination|final-decision-record)/example-:number(0[1-9]|[1-3][0-9]|40)/",
+      "destination": "/library/:topic/#case-:number",
+      "permanent": true
+    },
+    {
       "source": "/workbooks/comparable-selection/example-01",
       "destination": "/library/comparable-selection/#case-01",
       "permanent": true

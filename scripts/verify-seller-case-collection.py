@@ -31,7 +31,7 @@ assert '$19,000' in html and '$54,666.67' in html
 assert 60000-41000==19000 and round(41000*12/9,2)==54666.67
 assert len({json.dumps(a['caseFacts'],sort_keys=True)for a in articles})==1
 assert len({a['shortTitle']for a in articles})==40
-urls=[u.text for u in E.parse(pub/'sitemap.xml').findall('.//{*}loc')];assert len(urls)==len(set(urls))==1427
+urls=[u.text for u in E.parse(pub/'sitemap.xml').findall('.//{*}loc')];assert len(urls)==len(set(urls))==67
 assert not any('/workbooks/seller-records/'in u for u in urls)
 if len(sys.argv)>1:
  base=Path(sys.argv[1]);old=(base/'public'/owner.lstrip('/')/'index.html').read_text()
@@ -39,4 +39,4 @@ if len(sys.argv)>1:
   oldCase=(base/'public/workbooks'/slug/f'example-{n:02d}'/'index.html').read_text();pattern=r'<article data-developed-case="'+slug+'/'+str(n)+r'">([\s\S]*?)</article>';a=re.search(pattern,oldCase);b=re.search(pattern,html);assert a and b;assert visible(a[1])==visible(b[1]),('Case text changed',n)
  # Existing own-checklist initial fields and status are preserved.
  oldData=json.loads(re.search(r'<script id="workspace-data" type="application/json">(.*?)</script>',old)[1]);newData=json.loads(re.search(r'data-case-workspace="own"[\s\S]*?<script type="application/json" data-case-workspace-data>(.*?)</script>',html)[1]);assert oldData==newData
-print(json.dumps({'ownerPages':1427,'preservedCaseArticles':40,'caseConditions':40,'commonFactPackets':1,'isolatedWorksheets':41,'legacyURLForms':80,'uniqueIDs':len(ids),'fullCaseText':'preserved','comparisonGap':19000,'hypotheticalExtrapolation':54666.67,'utilityAmounts':'not supplied'}))
+print(json.dumps({'ownerPages':67,'preservedCaseArticles':40,'caseConditions':40,'commonFactPackets':1,'isolatedWorksheets':41,'legacyURLForms':80,'uniqueIDs':len(ids),'fullCaseText':'preserved','comparisonGap':19000,'hypotheticalExtrapolation':54666.67,'utilityAmounts':'not supplied'}))
