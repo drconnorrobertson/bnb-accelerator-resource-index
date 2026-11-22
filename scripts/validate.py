@@ -56,8 +56,8 @@ for f in pub.rglob('*.html'):
   elif url.startswith('http'):
    parsed=urlsplit(url);assert parsed.scheme=='https',(route,'non-https link')
  pages[route]=s
-assert workspace_count==1520,workspace_count
-for slug in ['cash-allocation','seller-records']:
+assert workspace_count==1480,workspace_count
+for slug in ['cash-allocation','seller-records','lender-comparison']:
  collection=(pub/f'library/{slug}/index.html').read_text()
  assert len(re.findall(r'<details class="case-detail"',collection))==40,'Missing collected practice cases'
  assert len(re.findall(r'data-case-workspace="',collection))==41,'Missing own or case worksheets'
@@ -74,5 +74,5 @@ while q:
   if url.startswith('/') and route in pages and route not in visited:visited.add(route);q.append(route)
 assert visited==set(pages),('orphan routes',list(set(pages)-visited)[:5])
 assert not list(pub.rglob('*.py'));assert not list(pub.rglob('site.json'));assert not list(pub.rglob('catalog.json'));assert not list(pub.rglob('build-report.json'))
-summary=dict(project=cfg['project'],totalPages=len(pages),corePages=core_count,developedCasePages=workspace_count,collectedCaseArticles=80,practiceCaseArticles=workspace_count+80,indexEligiblePages=len(pages),noindexCasePages=0,sitemapEntries=len(sitemap),reachablePages=len(visited),uniqueTitles=len(titles),uniqueMainContent=len(digests),internalLinks='passed',structuredJSON='passed',sourceBoundary='passed')
+summary=dict(project=cfg['project'],totalPages=len(pages),corePages=core_count,developedCasePages=workspace_count,collectedCaseArticles=120,practiceCaseArticles=workspace_count+120,indexEligiblePages=len(pages),noindexCasePages=0,sitemapEntries=len(sitemap),reachablePages=len(visited),uniqueTitles=len(titles),uniqueMainContent=len(digests),internalLinks='passed',structuredJSON='passed',sourceBoundary='passed')
 (root/'validation-report.json').write_text(json.dumps(summary,indent=2));print(json.dumps(summary))
