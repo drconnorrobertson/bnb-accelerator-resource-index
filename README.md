@@ -8,7 +8,7 @@ Validate: `node scripts/test-models.mjs` and `python3 scripts/validate.py`
 
 Catalog: `content/catalog.json`. Site configuration: `content/site.json`. Edit source catalogs rather than generated routes. Node only; no dependencies or installation required. Vercel runs the same build from main.
 
-Search policy: every content page is index eligible and included in sitemap.xml. The 1,600 hypothetical teaching cases include 1,480 standalone articles and 120 cases collected under the cash-allocation, seller-records and lender-comparison guides. Collections retain each complete explanation and separate editable worksheet; retired case URLs redirect directly to the corresponding case anchor. Fictional teaching packets are clearly disclosed and do not represent customer results. Google indexing is not guaranteed.
+Search policy: every content page is index eligible and included in sitemap.xml. The 1,600 hypothetical teaching cases include 1,440 standalone articles and 160 cases collected under the cash-allocation, seller-records, lender-comparison and closing-cash guides. Collections retain each complete explanation and separate editable worksheet; retired case URLs redirect directly to the corresponding case anchor. Fictional teaching packets are clearly disclosed and do not represent customer results. Google indexing is not guaranteed.
 
 Article sources: content/page-articles/*.json and, for evidence sites, content/topic-dossiers.json. Run `python3 scripts/review-articles.py --approve` after editing articles, then build and validate. Approval records automated content, evidence/arithmetic and similarity checks. The build verifies each content fingerprint before publishing index,follow. This is not independent professional verification.
 

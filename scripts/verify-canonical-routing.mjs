@@ -12,11 +12,11 @@ function destination(urlPath){
  }
  return null;
 }
-const xml=fs.readFileSync('public/sitemap.xml','utf8');const routes=[...xml.matchAll(/<loc>https:\/\/[^/]+([^<]*)<\/loc>/g)].map(m=>m[1]);assert.equal(routes.length,1547);
+const xml=fs.readFileSync('public/sitemap.xml','utf8');const routes=[...xml.matchAll(/<loc>https:\/\/[^/]+([^<]*)<\/loc>/g)].map(m=>m[1]);assert.equal(routes.length,1507);
 for(const route of routes){assert.equal(destination(route),null,'Canonical must not redirect: '+route);if(route!='/')assert.deepEqual(destination(route.slice(0,-1)),{target:route,permanent:true},'Normalize published alias: '+route)}
-for(const slug of ['cash-allocation','seller-records','lender-comparison'])for(let n=1;n<=40;n++)for(const suffix of ['', '/'])assert.deepEqual(destination('/workbooks/'+slug+'/example-'+String(n).padStart(2,'0')+suffix),{target:'/library/'+slug+'/#case-'+String(n).padStart(2,'0'),permanent:true});
+for(const slug of ['cash-allocation','seller-records','lender-comparison','closing-cash'])for(let n=1;n<=40;n++)for(const suffix of ['', '/'])assert.deepEqual(destination('/workbooks/'+slug+'/example-'+String(n).padStart(2,'0')+suffix),{target:'/library/'+slug+'/#case-'+String(n).padStart(2,'0'),permanent:true});
 const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):[path.join(d,e.name)]);
 for(const file of walk('public'))if(!file.endsWith('.html'))assert.equal(destination('/'+path.relative('public',file).replaceAll(path.sep,'/')),null,'Asset must not redirect: '+file);
 for(const probe of ['/library/topic/file.json','/workbooks/topic/file.css','/style.css','/sitemap.xml','/robots.txt','/unrelated-not-a-published-page'])assert.equal(destination(probe),null);
 assert(!rules.some(r=>r.destination.startsWith('//')),'No protocol-relative destinations');
-console.log(JSON.stringify({canonicalPagesWithoutRedirect:routes.length,publishedSlashlessAliases:routes.length-1,retiredCasesDirectURLForms:240,assetsExempt:true,scope:'Local matching of the configured literal and namespace rules; actual platform responses still require live verification.'}));
+console.log(JSON.stringify({canonicalPagesWithoutRedirect:routes.length,publishedSlashlessAliases:routes.length-1,retiredCasesDirectURLForms:320,assetsExempt:true,scope:'Local matching of the configured literal and namespace rules; actual platform responses still require live verification.'}));

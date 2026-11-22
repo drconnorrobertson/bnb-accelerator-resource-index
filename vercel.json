@@ -20,6 +20,406 @@
   "installCommand": "",
   "redirects": [
     {
+      "source": "/workbooks/closing-cash/example-01",
+      "destination": "/library/closing-cash/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-01/",
+      "destination": "/library/closing-cash/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-02",
+      "destination": "/library/closing-cash/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-02/",
+      "destination": "/library/closing-cash/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-03",
+      "destination": "/library/closing-cash/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-03/",
+      "destination": "/library/closing-cash/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-04",
+      "destination": "/library/closing-cash/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-04/",
+      "destination": "/library/closing-cash/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-05",
+      "destination": "/library/closing-cash/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-05/",
+      "destination": "/library/closing-cash/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-06",
+      "destination": "/library/closing-cash/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-06/",
+      "destination": "/library/closing-cash/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-07",
+      "destination": "/library/closing-cash/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-07/",
+      "destination": "/library/closing-cash/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-08",
+      "destination": "/library/closing-cash/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-08/",
+      "destination": "/library/closing-cash/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-09",
+      "destination": "/library/closing-cash/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-09/",
+      "destination": "/library/closing-cash/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-10",
+      "destination": "/library/closing-cash/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-10/",
+      "destination": "/library/closing-cash/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-11",
+      "destination": "/library/closing-cash/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-11/",
+      "destination": "/library/closing-cash/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-12",
+      "destination": "/library/closing-cash/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-12/",
+      "destination": "/library/closing-cash/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-13",
+      "destination": "/library/closing-cash/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-13/",
+      "destination": "/library/closing-cash/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-14",
+      "destination": "/library/closing-cash/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-14/",
+      "destination": "/library/closing-cash/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-15",
+      "destination": "/library/closing-cash/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-15/",
+      "destination": "/library/closing-cash/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-16",
+      "destination": "/library/closing-cash/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-16/",
+      "destination": "/library/closing-cash/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-17",
+      "destination": "/library/closing-cash/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-17/",
+      "destination": "/library/closing-cash/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-18",
+      "destination": "/library/closing-cash/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-18/",
+      "destination": "/library/closing-cash/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-19",
+      "destination": "/library/closing-cash/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-19/",
+      "destination": "/library/closing-cash/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-20",
+      "destination": "/library/closing-cash/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-20/",
+      "destination": "/library/closing-cash/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-21",
+      "destination": "/library/closing-cash/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-21/",
+      "destination": "/library/closing-cash/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-22",
+      "destination": "/library/closing-cash/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-22/",
+      "destination": "/library/closing-cash/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-23",
+      "destination": "/library/closing-cash/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-23/",
+      "destination": "/library/closing-cash/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-24",
+      "destination": "/library/closing-cash/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-24/",
+      "destination": "/library/closing-cash/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-25",
+      "destination": "/library/closing-cash/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-25/",
+      "destination": "/library/closing-cash/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-26",
+      "destination": "/library/closing-cash/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-26/",
+      "destination": "/library/closing-cash/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-27",
+      "destination": "/library/closing-cash/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-27/",
+      "destination": "/library/closing-cash/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-28",
+      "destination": "/library/closing-cash/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-28/",
+      "destination": "/library/closing-cash/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-29",
+      "destination": "/library/closing-cash/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-29/",
+      "destination": "/library/closing-cash/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-30",
+      "destination": "/library/closing-cash/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-30/",
+      "destination": "/library/closing-cash/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-31",
+      "destination": "/library/closing-cash/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-31/",
+      "destination": "/library/closing-cash/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-32",
+      "destination": "/library/closing-cash/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-32/",
+      "destination": "/library/closing-cash/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-33",
+      "destination": "/library/closing-cash/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-33/",
+      "destination": "/library/closing-cash/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-34",
+      "destination": "/library/closing-cash/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-34/",
+      "destination": "/library/closing-cash/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-35",
+      "destination": "/library/closing-cash/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-35/",
+      "destination": "/library/closing-cash/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-36",
+      "destination": "/library/closing-cash/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-36/",
+      "destination": "/library/closing-cash/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-37",
+      "destination": "/library/closing-cash/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-37/",
+      "destination": "/library/closing-cash/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-38",
+      "destination": "/library/closing-cash/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-38/",
+      "destination": "/library/closing-cash/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-39",
+      "destination": "/library/closing-cash/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-39/",
+      "destination": "/library/closing-cash/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-40",
+      "destination": "/library/closing-cash/#case-40",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/closing-cash/example-40/",
+      "destination": "/library/closing-cash/#case-40",
+      "permanent": true
+    },
+    {
       "source": "/workbooks/lender-comparison/example-01",
       "destination": "/library/lender-comparison/#case-01",
       "permanent": true
