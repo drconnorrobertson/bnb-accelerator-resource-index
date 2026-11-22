@@ -31,10 +31,10 @@ assert html.count('class="case-nav-group"')==5
 assert 100000+12000==112000 and 112000-10000==102000 and 10000+102000==112000
 for phrase in ['$112,000','$102,000','If the full $10,000 deposit','not a verified balance','forty transactions','business-purpose transaction']:
  assert phrase.lower() in html.lower(),phrase
-urls=[e.text for e in E.parse(pub/'sitemap.xml').findall('.//{*}loc')];assert len(urls)==len(set(urls))==1507;assert not any('/workbooks/closing-cash/' in u for u in urls)
+urls=[e.text for e in E.parse(pub/'sitemap.xml').findall('.//{*}loc')];assert len(urls)==len(set(urls))==1427;assert not any('/workbooks/closing-cash/' in u for u in urls)
 if len(sys.argv)>1:
  base=Path(sys.argv[1]);old=(base/'00.html').read_text();oldOwn=json.loads(re.search(r'<script id="workspace-data" type="application/json">(.*?)</script>',old,re.S)[1]);newOwn=json.loads(re.search(r'data-case-workspace="own"[\s\S]*?<script type="application/json" data-case-workspace-data>(.*?)</script>',html)[1]);assert oldOwn==newOwn
  for n in range(1,41):
   old=(base/f'{n:02d}.html').read_text();pattern=r'<article data-developed-case="closing-cash/'+str(n)+r'">([\s\S]*?)</article>';a=re.search(pattern,old);b=re.search(pattern,html);assert a and b;assert visible(a[1])==visible(b[1]),n
   oldData=json.loads(re.search(r'<script id="workspace-data" type="application/json">(.*?)</script>',old,re.S)[1]);newData=json.loads(re.search(r'data-case-workspace="case-'+f'{n:02d}'+r'"[\s\S]*?<script type="application/json" data-case-workspace-data>(.*?)</script>',html)[1]);assert oldData==newData,n
-print(json.dumps({'canonicalOwners':1507,'completeCaseArticlesPreserved':40,'separateWorkspaces':41,'priorWorkspaceDataPreserved':41,'legacyFormsDirect':80,'uniqueIDs':len(ids),'commonPackets':1,'distinctEvidenceConditions':40,'preCreditCash':112000,'conditionalNewCash':102000,'finalSettlementAmount':'not determined'}))
+print(json.dumps({'canonicalOwners':1427,'completeCaseArticlesPreserved':40,'separateWorkspaces':41,'priorWorkspaceDataPreserved':41,'legacyFormsDirect':80,'uniqueIDs':len(ids),'commonPackets':1,'distinctEvidenceConditions':40,'preCreditCash':112000,'conditionalNewCash':102000,'finalSettlementAmount':'not determined'}))

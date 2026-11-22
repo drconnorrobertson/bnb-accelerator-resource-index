@@ -20,6 +20,806 @@
   "installCommand": "",
   "redirects": [
     {
+      "source": "/workbooks/comparable-selection/example-01",
+      "destination": "/library/comparable-selection/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-01/",
+      "destination": "/library/comparable-selection/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-02",
+      "destination": "/library/comparable-selection/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-02/",
+      "destination": "/library/comparable-selection/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-03",
+      "destination": "/library/comparable-selection/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-03/",
+      "destination": "/library/comparable-selection/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-04",
+      "destination": "/library/comparable-selection/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-04/",
+      "destination": "/library/comparable-selection/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-05",
+      "destination": "/library/comparable-selection/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-05/",
+      "destination": "/library/comparable-selection/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-06",
+      "destination": "/library/comparable-selection/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-06/",
+      "destination": "/library/comparable-selection/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-07",
+      "destination": "/library/comparable-selection/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-07/",
+      "destination": "/library/comparable-selection/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-08",
+      "destination": "/library/comparable-selection/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-08/",
+      "destination": "/library/comparable-selection/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-09",
+      "destination": "/library/comparable-selection/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-09/",
+      "destination": "/library/comparable-selection/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-10",
+      "destination": "/library/comparable-selection/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-10/",
+      "destination": "/library/comparable-selection/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-11",
+      "destination": "/library/comparable-selection/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-11/",
+      "destination": "/library/comparable-selection/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-12",
+      "destination": "/library/comparable-selection/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-12/",
+      "destination": "/library/comparable-selection/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-13",
+      "destination": "/library/comparable-selection/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-13/",
+      "destination": "/library/comparable-selection/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-14",
+      "destination": "/library/comparable-selection/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-14/",
+      "destination": "/library/comparable-selection/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-15",
+      "destination": "/library/comparable-selection/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-15/",
+      "destination": "/library/comparable-selection/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-16",
+      "destination": "/library/comparable-selection/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-16/",
+      "destination": "/library/comparable-selection/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-17",
+      "destination": "/library/comparable-selection/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-17/",
+      "destination": "/library/comparable-selection/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-18",
+      "destination": "/library/comparable-selection/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-18/",
+      "destination": "/library/comparable-selection/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-19",
+      "destination": "/library/comparable-selection/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-19/",
+      "destination": "/library/comparable-selection/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-20",
+      "destination": "/library/comparable-selection/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-20/",
+      "destination": "/library/comparable-selection/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-21",
+      "destination": "/library/comparable-selection/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-21/",
+      "destination": "/library/comparable-selection/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-22",
+      "destination": "/library/comparable-selection/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-22/",
+      "destination": "/library/comparable-selection/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-23",
+      "destination": "/library/comparable-selection/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-23/",
+      "destination": "/library/comparable-selection/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-24",
+      "destination": "/library/comparable-selection/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-24/",
+      "destination": "/library/comparable-selection/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-25",
+      "destination": "/library/comparable-selection/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-25/",
+      "destination": "/library/comparable-selection/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-26",
+      "destination": "/library/comparable-selection/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-26/",
+      "destination": "/library/comparable-selection/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-27",
+      "destination": "/library/comparable-selection/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-27/",
+      "destination": "/library/comparable-selection/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-28",
+      "destination": "/library/comparable-selection/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-28/",
+      "destination": "/library/comparable-selection/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-29",
+      "destination": "/library/comparable-selection/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-29/",
+      "destination": "/library/comparable-selection/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-30",
+      "destination": "/library/comparable-selection/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-30/",
+      "destination": "/library/comparable-selection/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-31",
+      "destination": "/library/comparable-selection/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-31/",
+      "destination": "/library/comparable-selection/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-32",
+      "destination": "/library/comparable-selection/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-32/",
+      "destination": "/library/comparable-selection/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-33",
+      "destination": "/library/comparable-selection/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-33/",
+      "destination": "/library/comparable-selection/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-34",
+      "destination": "/library/comparable-selection/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-34/",
+      "destination": "/library/comparable-selection/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-35",
+      "destination": "/library/comparable-selection/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-35/",
+      "destination": "/library/comparable-selection/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-36",
+      "destination": "/library/comparable-selection/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-36/",
+      "destination": "/library/comparable-selection/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-37",
+      "destination": "/library/comparable-selection/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-37/",
+      "destination": "/library/comparable-selection/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-38",
+      "destination": "/library/comparable-selection/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-38/",
+      "destination": "/library/comparable-selection/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-39",
+      "destination": "/library/comparable-selection/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-39/",
+      "destination": "/library/comparable-selection/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-40",
+      "destination": "/library/comparable-selection/#case-40",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/comparable-selection/example-40/",
+      "destination": "/library/comparable-selection/#case-40",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-01",
+      "destination": "/library/seasonality-review/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-01/",
+      "destination": "/library/seasonality-review/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-02",
+      "destination": "/library/seasonality-review/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-02/",
+      "destination": "/library/seasonality-review/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-03",
+      "destination": "/library/seasonality-review/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-03/",
+      "destination": "/library/seasonality-review/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-04",
+      "destination": "/library/seasonality-review/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-04/",
+      "destination": "/library/seasonality-review/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-05",
+      "destination": "/library/seasonality-review/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-05/",
+      "destination": "/library/seasonality-review/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-06",
+      "destination": "/library/seasonality-review/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-06/",
+      "destination": "/library/seasonality-review/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-07",
+      "destination": "/library/seasonality-review/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-07/",
+      "destination": "/library/seasonality-review/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-08",
+      "destination": "/library/seasonality-review/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-08/",
+      "destination": "/library/seasonality-review/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-09",
+      "destination": "/library/seasonality-review/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-09/",
+      "destination": "/library/seasonality-review/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-10",
+      "destination": "/library/seasonality-review/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-10/",
+      "destination": "/library/seasonality-review/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-11",
+      "destination": "/library/seasonality-review/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-11/",
+      "destination": "/library/seasonality-review/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-12",
+      "destination": "/library/seasonality-review/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-12/",
+      "destination": "/library/seasonality-review/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-13",
+      "destination": "/library/seasonality-review/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-13/",
+      "destination": "/library/seasonality-review/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-14",
+      "destination": "/library/seasonality-review/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-14/",
+      "destination": "/library/seasonality-review/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-15",
+      "destination": "/library/seasonality-review/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-15/",
+      "destination": "/library/seasonality-review/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-16",
+      "destination": "/library/seasonality-review/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-16/",
+      "destination": "/library/seasonality-review/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-17",
+      "destination": "/library/seasonality-review/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-17/",
+      "destination": "/library/seasonality-review/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-18",
+      "destination": "/library/seasonality-review/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-18/",
+      "destination": "/library/seasonality-review/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-19",
+      "destination": "/library/seasonality-review/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-19/",
+      "destination": "/library/seasonality-review/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-20",
+      "destination": "/library/seasonality-review/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-20/",
+      "destination": "/library/seasonality-review/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-21",
+      "destination": "/library/seasonality-review/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-21/",
+      "destination": "/library/seasonality-review/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-22",
+      "destination": "/library/seasonality-review/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-22/",
+      "destination": "/library/seasonality-review/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-23",
+      "destination": "/library/seasonality-review/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-23/",
+      "destination": "/library/seasonality-review/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-24",
+      "destination": "/library/seasonality-review/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-24/",
+      "destination": "/library/seasonality-review/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-25",
+      "destination": "/library/seasonality-review/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-25/",
+      "destination": "/library/seasonality-review/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-26",
+      "destination": "/library/seasonality-review/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-26/",
+      "destination": "/library/seasonality-review/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-27",
+      "destination": "/library/seasonality-review/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-27/",
+      "destination": "/library/seasonality-review/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-28",
+      "destination": "/library/seasonality-review/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-28/",
+      "destination": "/library/seasonality-review/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-29",
+      "destination": "/library/seasonality-review/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-29/",
+      "destination": "/library/seasonality-review/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-30",
+      "destination": "/library/seasonality-review/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-30/",
+      "destination": "/library/seasonality-review/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-31",
+      "destination": "/library/seasonality-review/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-31/",
+      "destination": "/library/seasonality-review/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-32",
+      "destination": "/library/seasonality-review/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-32/",
+      "destination": "/library/seasonality-review/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-33",
+      "destination": "/library/seasonality-review/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-33/",
+      "destination": "/library/seasonality-review/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-34",
+      "destination": "/library/seasonality-review/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-34/",
+      "destination": "/library/seasonality-review/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-35",
+      "destination": "/library/seasonality-review/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-35/",
+      "destination": "/library/seasonality-review/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-36",
+      "destination": "/library/seasonality-review/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-36/",
+      "destination": "/library/seasonality-review/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-37",
+      "destination": "/library/seasonality-review/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-37/",
+      "destination": "/library/seasonality-review/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-38",
+      "destination": "/library/seasonality-review/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-38/",
+      "destination": "/library/seasonality-review/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-39",
+      "destination": "/library/seasonality-review/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-39/",
+      "destination": "/library/seasonality-review/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-40",
+      "destination": "/library/seasonality-review/#case-40",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/seasonality-review/example-40/",
+      "destination": "/library/seasonality-review/#case-40",
+      "permanent": true
+    },
+    {
       "source": "/workbooks/closing-cash/example-01",
       "destination": "/library/closing-cash/#case-01",
       "permanent": true
