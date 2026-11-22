@@ -18,5 +18,407 @@
     }
   ],
   "buildCommand": "node scripts/build.mjs",
-  "installCommand": ""
+  "installCommand": "",
+  "redirects": [
+    {
+      "source": "/workbooks/cash-allocation/example-01",
+      "destination": "/library/cash-allocation/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-01/",
+      "destination": "/library/cash-allocation/#case-01",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-02",
+      "destination": "/library/cash-allocation/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-02/",
+      "destination": "/library/cash-allocation/#case-02",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-03",
+      "destination": "/library/cash-allocation/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-03/",
+      "destination": "/library/cash-allocation/#case-03",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-04",
+      "destination": "/library/cash-allocation/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-04/",
+      "destination": "/library/cash-allocation/#case-04",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-05",
+      "destination": "/library/cash-allocation/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-05/",
+      "destination": "/library/cash-allocation/#case-05",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-06",
+      "destination": "/library/cash-allocation/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-06/",
+      "destination": "/library/cash-allocation/#case-06",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-07",
+      "destination": "/library/cash-allocation/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-07/",
+      "destination": "/library/cash-allocation/#case-07",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-08",
+      "destination": "/library/cash-allocation/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-08/",
+      "destination": "/library/cash-allocation/#case-08",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-09",
+      "destination": "/library/cash-allocation/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-09/",
+      "destination": "/library/cash-allocation/#case-09",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-10",
+      "destination": "/library/cash-allocation/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-10/",
+      "destination": "/library/cash-allocation/#case-10",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-11",
+      "destination": "/library/cash-allocation/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-11/",
+      "destination": "/library/cash-allocation/#case-11",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-12",
+      "destination": "/library/cash-allocation/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-12/",
+      "destination": "/library/cash-allocation/#case-12",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-13",
+      "destination": "/library/cash-allocation/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-13/",
+      "destination": "/library/cash-allocation/#case-13",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-14",
+      "destination": "/library/cash-allocation/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-14/",
+      "destination": "/library/cash-allocation/#case-14",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-15",
+      "destination": "/library/cash-allocation/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-15/",
+      "destination": "/library/cash-allocation/#case-15",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-16",
+      "destination": "/library/cash-allocation/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-16/",
+      "destination": "/library/cash-allocation/#case-16",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-17",
+      "destination": "/library/cash-allocation/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-17/",
+      "destination": "/library/cash-allocation/#case-17",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-18",
+      "destination": "/library/cash-allocation/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-18/",
+      "destination": "/library/cash-allocation/#case-18",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-19",
+      "destination": "/library/cash-allocation/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-19/",
+      "destination": "/library/cash-allocation/#case-19",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-20",
+      "destination": "/library/cash-allocation/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-20/",
+      "destination": "/library/cash-allocation/#case-20",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-21",
+      "destination": "/library/cash-allocation/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-21/",
+      "destination": "/library/cash-allocation/#case-21",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-22",
+      "destination": "/library/cash-allocation/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-22/",
+      "destination": "/library/cash-allocation/#case-22",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-23",
+      "destination": "/library/cash-allocation/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-23/",
+      "destination": "/library/cash-allocation/#case-23",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-24",
+      "destination": "/library/cash-allocation/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-24/",
+      "destination": "/library/cash-allocation/#case-24",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-25",
+      "destination": "/library/cash-allocation/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-25/",
+      "destination": "/library/cash-allocation/#case-25",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-26",
+      "destination": "/library/cash-allocation/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-26/",
+      "destination": "/library/cash-allocation/#case-26",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-27",
+      "destination": "/library/cash-allocation/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-27/",
+      "destination": "/library/cash-allocation/#case-27",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-28",
+      "destination": "/library/cash-allocation/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-28/",
+      "destination": "/library/cash-allocation/#case-28",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-29",
+      "destination": "/library/cash-allocation/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-29/",
+      "destination": "/library/cash-allocation/#case-29",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-30",
+      "destination": "/library/cash-allocation/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-30/",
+      "destination": "/library/cash-allocation/#case-30",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-31",
+      "destination": "/library/cash-allocation/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-31/",
+      "destination": "/library/cash-allocation/#case-31",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-32",
+      "destination": "/library/cash-allocation/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-32/",
+      "destination": "/library/cash-allocation/#case-32",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-33",
+      "destination": "/library/cash-allocation/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-33/",
+      "destination": "/library/cash-allocation/#case-33",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-34",
+      "destination": "/library/cash-allocation/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-34/",
+      "destination": "/library/cash-allocation/#case-34",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-35",
+      "destination": "/library/cash-allocation/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-35/",
+      "destination": "/library/cash-allocation/#case-35",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-36",
+      "destination": "/library/cash-allocation/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-36/",
+      "destination": "/library/cash-allocation/#case-36",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-37",
+      "destination": "/library/cash-allocation/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-37/",
+      "destination": "/library/cash-allocation/#case-37",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-38",
+      "destination": "/library/cash-allocation/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-38/",
+      "destination": "/library/cash-allocation/#case-38",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-39",
+      "destination": "/library/cash-allocation/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-39/",
+      "destination": "/library/cash-allocation/#case-39",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-40",
+      "destination": "/library/cash-allocation/#case-40",
+      "permanent": true
+    },
+    {
+      "source": "/workbooks/cash-allocation/example-40/",
+      "destination": "/library/cash-allocation/#case-40",
+      "permanent": true
+    }
+  ]
 }
