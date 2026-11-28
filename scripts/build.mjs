@@ -25,12 +25,15 @@ function auditForm(topic,sample,title,j){const summary=auditSummary(sample.recor
 const topicPath=t=>'/library/'+t.slug+'/';const examplePath=(t,j)=>'/workbooks/'+t.slug+'/example-'+String(j).padStart(2,'0')+'/';
 const relatedTaxResources={
  'owner-reporting': [
-  ['Reconcile Form 1099-K to short-term rental payouts','form-1099k-net-payout-rental-reconciliation'],
-  ['Account for cancellation amounts retained by the host','short-term-rental-canceled-booking-retained-host-payment']
+  ['Reconcile Form 1099-K to short-term rental payouts','short-term-rental-tax-questions/form-1099k-net-payout-rental-reconciliation'],
+  ['Account for cancellation amounts retained by the host','short-term-rental-tax-questions/short-term-rental-canceled-booking-retained-host-payment']
+ ],
+ 'lender-comparison': [
+  ['Allocate rental refinance points when the cash out funds personal spending','rental-financing-tax-questions/rental-cash-out-refinance-points-personal-use']
  ]
 };
-const taxResourceLinks=t=>(relatedTaxResources[t.slug]||[]).map(([label,slug])=>
- `<a href="https://www.aetaxadvisors.com/guides/short-term-rental-tax-questions/${slug}/">${esc(label)} (AE Tax Advisors)</a>`
+const taxResourceLinks=t=>(relatedTaxResources[t.slug]||[]).map(([label,guidePath])=>
+ `<a href="https://www.aetaxadvisors.com/guides/${guidePath}/">${esc(label)} (AE Tax Advisors)</a>`
 ).join('');
 const related=t=>'<div class="related"><h2>Related resources</h2>'+[topics[(topics.indexOf(t)+1)%topics.length],topics[(topics.indexOf(t)+7)%topics.length]].map(x=>`<a href="${topicPath(x)}">${esc(x.title)}</a>`).join('')+taxResourceLinks(t)+'<a href="/library/">Browse the full library</a></div>';
 const sources=t=>{const map={'lender-comparison':['CFPB mortgage comparison resource','https://www.consumerfinance.gov/owning-a-home/compare/compare-loan-estimates/'],'moisture-follow-up':['EPA moisture and mold resource','https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home'],'company-ownership':['FTC guidance for review publishers','https://www.ftc.gov/business-guidance/resources/featuring-online-customer-reviews-guide-platforms'],'review-incentives':['FTC review-publisher guidance','https://www.ftc.gov/business-guidance/resources/featuring-online-customer-reviews-guide-platforms']};const s=map[t.slug];return s?section('Further reading',`<p><a href="${s[1]}">${s[0]}</a>. External background, not an endorsement of this site or a property-specific conclusion.</p>`):''};
